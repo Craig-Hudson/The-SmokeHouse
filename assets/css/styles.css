@@ -23,9 +23,9 @@ h1, h2, h3, h4 {
 
 header {
     background-color: #27374D;
-    height: 14vh;
+    height: 12vh;
     width: 100%;
-    line-height: 14vh;
+    line-height: 12vh;
 }
 
 nav {
@@ -43,19 +43,36 @@ nav ul li {
     list-style: none;
     text-align: center;
     padding: 0 2vw;
+    font-size: 3vh;
 }
 
 nav a {
     text-decoration: none;
     color: whitesmoke;
-    font-size: 3vh;
+    
 }  
 
 nav a:hover {
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
 }
 
+
+#carousel {
+    width: 100%;
+    height: 88vh;
+}
+
+#carousel img {
+    height: 88vh;
+    max-width: 100%;
+}
 
 
 /*----------MEDIA QUERIES------------------*/
 
+@media screen and (max-width: 1200px) {
+    nav ul li {
+        padding: 0 1vw;
+        font-size: 2vh;
+    }
+}
