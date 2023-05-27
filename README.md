@@ -1,39 +1,45 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The SmokeHouse
 
-Welcome,
+------------
+[Link to live site here](https://craig-hudson.github.io/The-Smokehouse/ "Link to live site here")
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Here we have a fresh responsive website for a local independent restaurant.
+The aims for this website are to make it easier for existing and new potential customers to be able to make online reservations and to be able to easily view what the restaurant offers and not only that we want all new potential customers to be able to view stunning images of our fresh modern restaurant, and we want them to be able to view testimonials from previous customers.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## User Experience (UX)
 
-## Codeanywhere Reminders
+* **User Stories**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+  * **First time visitor goals**
+    1. As a first time visitor i want a nice clean site that is easy to navigate.
+    2. As a first time visitor i want to be able to easily identify where to find the menu.
+    3. As a first time visitor i want to be able to easily find the whereabouts of the restaurant.
 
-`python3 -m http.server`
+  * **Returning Visitor goals**
+    1. As a returning Visitor i want to know if their are any current offers/deals on.
+    2. As a returning visitor i want to be able to easily find contact information for any queries.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* **Design**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  * **Colour Scheme**
+    * The main colours used will be a dark shade of cyan-blue and white.
 
-`http_server`
+  * **typography**
+    * For headings I will be using Black Han Sans with a fallback of sans-serif.
+    * For page text I will be using Quattrocento with a fall back of serif.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  * **Structure**
+    * The structure will be a single scrolling page, with each section taking up the full viewport height to help clearly define each section.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* **Wireframes**
+   <details>
+    <summary>Wireframes</summary>
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    ![Desktop home page wireframe](/assets/readme-images/Desktop%20Home.png "desktop home page wireframe")
+    ![Desktop reservation page wireframe](/assets/readme-images/Desktop%20Reservation%20Page.png "desktop reservation wireframe")
+    ![Tablet home page wireframe](/assets/readme-images/tablet%20Home.png "tablet home page wireframe")
+    ![Tablet reservation page wireframe](/assets/readme-images/Tablet%20Reservation%20Page.png "tablet reservation wireframe")
+    ![Mobile home page wireframe](/assets/readme-images/Mobile%20home.jpg "mobile home wireframe")
+    ![Mobile reservation page](/assets/readme-images/Reservation%20Page.png "mobile reservation wireframe")
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+  </details>
