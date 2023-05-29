@@ -35,7 +35,7 @@ h1, h2, h3, h4 {
     
 }
 
-
+s
 
 /*-------------CAROUSEL--------------*/
 
@@ -100,12 +100,7 @@ h1, h2, h3, h4 {
 
 /*----------MEDIA QUERIES------------------*/
 
-@media screen and (max-width: 1200px) {
-    nav ul li {
-        padding: 0 1vw;
-        font-size: 100%;
-    }
-}
+
 
 @media screen and (max-width: 768px) {
     #menu .border-end {
