@@ -92,6 +92,12 @@ h1, h2, h3, h4 {
 .menu-items h4 {
     padding-bottom: 10px;
 }
+.spliter{
+    display: none;
+}
+.menu-items h5 {
+    line-height: 4rem;
+}
 
 .mains * {
     padding-bottom: 5px;
@@ -116,9 +122,19 @@ h1, h2, h3, h4 {
 }
 
 /*-------------ABOUT----------------------*/
-
+.about-us{
+    background-color: #404258;
+}
 
 /*-------------CONTACT----------------------*/
+
+/*-------------FOOTER----------------------*/
+
+i {
+    font-size: 150%
+    
+}
+
 
 /*----------MEDIA QUERIES------------------*/
 
@@ -128,6 +144,15 @@ h1, h2, h3, h4 {
     #menu .right-border {
         border-right: 0;
     }
+    
+    .spliter{
+        display: inline;
+    }
+
+    #about .right-border {
+        border-right: 0;
+    }
+
 }
     #menu p {
         font-size: 90%;
@@ -136,6 +161,9 @@ h1, h2, h3, h4 {
 @media  screen and  (max-width: 608px) {
     #carousel .carousel-item img {
         height: 42vh;
+    }
+    .spliter{
+        display: inline;
     }
 }
     
