@@ -13,22 +13,22 @@
 </head>
 <body>
     <!--------NAVBAR------->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav id="home" class="navbar navbar-expand-md navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">The SmokeHouse</a>
+            <a class="navbar-brand" href="index.html">The SmokeHouse</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Menu</a>
+                        <a class="nav-link" href="#menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Reservations</a>
@@ -45,13 +45,18 @@
         <div class="carousel-container">
             <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="4000">
+                    <div class="carousel-item active" data-bs-interval="7000">
                         <img src="assets/site-images/pexels-chan-walrus-941861 (1).jpg" class="d-block w-100 img-fluid" alt="Image of restaurant">
+                        <div class="carousel-caption">
+                            <h1>Welcome to The SmokeHouse</h1>
+                            <p>View Our <a href="#menu">Menu</a> Below</p>
+                            <a class="btn btn-dark" href="#" role="button">Book A Table</a>
+                        </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="4000">
+                    <div class="carousel-item" data-bs-interval="7000">
                         <img src="assets/site-images/pexels-samer-daboul-2233729 (1).jpg" class="d-block w-100 img-fluid" alt="Image of kebabs on a grill">
                     </div>
-                    <div class="carousel-item" data-bs-interval="4000">
+                    <div class="carousel-item" data-bs-interval="7000">
                         <img src="assets/site-images/pexels-rene-asmussen-2977514 (2).jpg" class="d-block w-100 img-fluid" alt="Image of a chef dishing up food">
                     </div>
                     <div class="carousel-item">
@@ -71,17 +76,14 @@
     </section> 
     <!---------MENU SECTION------------>
     <section id="menu" class="container-fluid vh-100">
-        <div class="row menu-heading">
-            <div class="col-8">
-                <h2>Menu</h2>
-                <h3>The SmokeHouse</h3>
-            </div>
-            <div class="col-4">
-                <img src="assets/site-images/pexels-lukas-1352269 (1).jpg" class=" img-fluid img-thumbnail" alt="Image of steak dished up with potatoes">
+        <div class="row g-0 vh-20">
+            <div class="col-12">
+                <h2 class="bottom-border">Menu</h2>
+                <h3 class="bottom-border">The SmokeHouse</h3>
             </div>
         </div>
-        <div class="row menu-items">
-            <div class="col-12 col-md-6 ">
+        <div class="container-fluid row g-0 vh-80 menu-items">
+            <div class="container-fluid col-12 col-md-6 border-end border-2 text-center">
                 <h4>Appetizers</h4>
                 <h5>tennessee brisket tacos <span class="float-end">£8.95</span></h5>
                 <p>16 hr smoked grain-fed brisket with Mojito guacamole, lime, pickled red onion, Peri Peri sauce & crispy shallots. <span class="calories">378 kcal</span></p>
@@ -92,7 +94,7 @@
                 <h5>Smoky bourbon bacon bites <span class="float-end">£7.50</span></h5>
                 <p>Bite-sized chunks of 8 hour smoked bacon, tossed in bourbon & served with blue cheese dip. <span class="calories">569kcal</span></p>
             </div>
-            <div class="col-12 col-md-6">
+        <div class="container-fluid col-12 col-md-6 text-center">
                 <h4>Mains</h4>
                 <h5>Cowboy steak 12oz<span class="float-end">£24.99</span></h5>
                 <p>Straight from grass-fed cattle & aged for 30 days this rump is big in flavour. Served with skin-on fries, Hickory's pepper sauce, fire-kissed chilli & magic-dusted field mushroom. <span class="calories">1497kcal</span></p>                    
@@ -104,6 +106,9 @@
                 <p>Pork this tender doesn't happen by accident. This cut has been lovingly smoked for 14 hours & comes served with barbecue beans, skin-on fries & house slaw. <span class="calories">1298kcal</span></p>
             </div>
         </div>
+    </section>
+    <section id="about">
+
     </section>
 
 
