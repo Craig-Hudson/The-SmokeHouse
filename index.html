@@ -22,19 +22,19 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html" aria-label="Go to home section">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#menu">Menu</a>
+                        <a class="nav-link" href="#menu" aria-label="Go to menu section">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#about" aria-label="Go to about section">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Reservations</a>
+                        <a class="nav-link" href="#" aria-label="Go to reservations page">Reservations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact" aria-label="Go to Contact section">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -47,10 +47,10 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="7000">
                         <img src="assets/site-images/pexels-chan-walrus-941861 (1).jpg" class="d-block w-100 img-fluid" alt="Image of restaurant">
-                        <div class="carousel-caption">
+                        <div class="carousel-caption text-center">
                             <h1>Welcome to The SmokeHouse</h1>
                             <p>View Our <a href="#menu">Menu</a> Below</p>
-                            <a class="btn btn-dark" href="#" role="button">Book A Table</a>
+                            <a class="btn btn-dark" href="#" role="button" aria-label="Go to reservations page">Book A Table</a>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="7000">
@@ -75,15 +75,15 @@
         </div>
     </section> 
     <!---------MENU SECTION------------>
-    <section id="menu" class="container-fluid vh-100">
-        <div class="row g-0 vh-20">
+    <section id="menu" class="container-fluid min-vh-100" >
+        <div class="row g-0 vh-20 text-center">
             <div class="col-12">
-                <h2 class="bottom-border">Menu</h2>
-                <h3 class="bottom-border">The SmokeHouse</h3>
+                <h2>Menu</h2>
+                <h3>The SmokeHouse</h3>
             </div>
         </div>
-        <div class="container-fluid row g-0 vh-80 menu-items">
-            <div class="container-fluid col-12 col-md-6 border-end border-2 text-center">
+        <div class="container-fluid row g-0 menu-items text-center">
+            <div class="container-fluid col-12 col-md-6 text-center  text-s right-border align-items-center">
                 <h4>Appetizers</h4>
                 <h5>tennessee brisket tacos <span class="float-end">£8.95</span></h5>
                 <p>16 hr smoked grain-fed brisket with Mojito guacamole, lime, pickled red onion, Peri Peri sauce & crispy shallots. <span class="calories">378 kcal</span></p>
@@ -94,7 +94,7 @@
                 <h5>Smoky bourbon bacon bites <span class="float-end">£7.50</span></h5>
                 <p>Bite-sized chunks of 8 hour smoked bacon, tossed in bourbon & served with blue cheese dip. <span class="calories">569kcal</span></p>
             </div>
-        <div class="container-fluid col-12 col-md-6 text-center">
+            <div class="container-fluid col-12 col-md-6 text-center">
                 <h4>Mains</h4>
                 <h5>Cowboy steak 12oz<span class="float-end">£24.99</span></h5>
                 <p>Straight from grass-fed cattle & aged for 30 days this rump is big in flavour. Served with skin-on fries, Hickory's pepper sauce, fire-kissed chilli & magic-dusted field mushroom. <span class="calories">1497kcal</span></p>                    
@@ -107,7 +107,18 @@
             </div>
         </div>
     </section>
-    <section id="about">
+    <!--------------ABOUT / CONTACT-------------->
+    <section id="about" class="container-fluid">
+        <div class="row g-0 text-center">
+            <div class="col-12 col-md-6">    
+                <h2>Our Story</h2>
+
+            </div>
+            <div id="contact" class="col-12 col-md-6">
+                <h2>Get In Touch</h2>
+            </div>
+        </div>
+
 
     </section>
 
