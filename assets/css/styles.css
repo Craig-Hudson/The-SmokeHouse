@@ -93,6 +93,10 @@ h1, h2, h3, h4 {
     padding-bottom: 10px;
 }
 
+.mains * {
+    padding-bottom: 5px;
+}
+
 .calories {
     font-size: 70%;
     font-weight: bold;
@@ -101,6 +105,17 @@ h1, h2, h3, h4 {
 .right-border {
     border-right: 2px solid whitesmoke;
 }
+
+
+/*----------RESERVATION BOOKING FORM-----------*/
+
+#reservations {
+     color: whitesmoke;
+     background: url(/assets/site-images/raw-chicken-breast-dark-background.jpg) no-repeat center center / cover;
+     padding: 15px;
+}
+
+
 
 /*----------MEDIA QUERIES------------------*/
 
@@ -114,7 +129,7 @@ h1, h2, h3, h4 {
     #menu p {
         font-size: 90%;
     }
-    
+
 @media  screen and  (max-width: 608px) {
     #carousel .carousel-item img {
         height: 42vh;
