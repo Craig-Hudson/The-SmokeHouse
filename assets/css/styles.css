@@ -22,95 +22,27 @@ h1, h2, h3, h4 {
 
 /*----------NAVBAR-----------*/
 
-header {
-    background-color: #27374D;
-    height: 12vh;
-    width: 100%;
-    line-height: 12vh;
-}
-
 nav {
-    text-align: center;
-    max-width: 100%;
+    background-color: #27374D;
 }
 
-nav ul {
-    padding: 0;
-    margin-bottom: 0px;
+.nav-link {
+    font-size: 30px;
 }
 
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    text-align: center;
-    padding: 0 2vw;
-    font-size: 150%;
+/*-------------CAROUSEL--------------*/
+
+#carousel .carousel-item img {
+    height: 92vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
 }
 
-nav a {
-    text-decoration: none;
-    color: whitesmoke;
-    
-}  
-
-nav a:hover {
-    border-bottom: 2px solid whitesmoke;
-}
-
-
-#carousel {
-    width: 100%;
-    height: 88vh;
-}
-
-
-
-#carousel img {
-    height: 88vh;
-    width: 100%;
-}
 
 /*----------MENU---------------*/
 
-#menu {
-    width: 100%;
-    height: 100vh;
-    background-color: red;
-    margin-top: 10px;
-}
 
-.menu-heading {
-    width: 100%;
-    height: 18vh;
-    background-color: blue;
-    text-align: center;
-}
-
-.menu-heading img {
-    width: 18vw;
-    height: 16vh;
-    margin: 0 auto;
-}
-
-.menu-items {
-    text-align: center;
-}
-
-.menu-items h4, h5 {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.calories {
-    font-size: 60%;
-    font-weight: bold;
-    color: black;
-}
-
-.price {
-    float: right;
-    font-weight: bold;
-}
 
 
 
@@ -124,4 +56,12 @@ nav a:hover {
         padding: 0 1vw;
         font-size: 100%;
     }
+}
+
+@media  screen and  (max-width: 608px) {
+    #carousel .carousel-item img {
+        height: 42vh;
+    }
+}
+    
 }
