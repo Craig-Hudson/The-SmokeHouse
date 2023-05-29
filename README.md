@@ -1,7 +1,7 @@
 # The SmokeHouse
 
 ------------
-[Link to live site here](https://craig-hudson.github.io/The-Smokehouse/ "Link to live site here")
+[Link to live site here]( https://craig-hudson.github.io/The-SmokeHouse/ "Link to live site here")
 
 Here we have a fresh responsive website for a local independent restaurant.
 The aims for this website are to make it easier for existing and new potential customers to be able to make online reservations and to be able to easily view what the restaurant offers and not only that we want all new potential customers to be able to view stunning images of our fresh modern restaurant, and we want them to be able to view testimonials from previous customers.
