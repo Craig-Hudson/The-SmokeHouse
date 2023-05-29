@@ -39,7 +39,7 @@ The aims for this website are to make it easier for existing and new potential c
     ![Desktop reservation page wireframe](/assets/readme-images/Desktop%20Reservation%20Page.png "desktop reservation wireframe")
     ![Tablet home page wireframe](/assets/readme-images/tablet%20Home.png "tablet home page wireframe")
     ![Tablet reservation page wireframe](/assets/readme-images/Tablet%20Reservation%20Page.png "tablet reservation wireframe")
-    ![Mobile home page wireframe](/assets/readme-images/Mobile%20Home.png "mobile home wireframe")
+    ![Mobile home page wireframe](/assets/readme-images/mobile-home.png "mobile home wireframe")
     ![Mobile reservation page](/assets/readme-images/Reservation%20Page.png "mobile reservation wireframe")
 
   </details>
