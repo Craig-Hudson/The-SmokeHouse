@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Quattrocento&display=swap');
 
+/*---------DEFAULT SETTINGS----------*/
+
 html {
     width: 100%;
     height: 100%;
@@ -11,7 +13,7 @@ body {
     color: whitesmoke;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-family: 'Black Han Sans', sans-serif;
 }
 
@@ -25,14 +27,12 @@ h1, h2, h3, h4 {
 
 #home {
     background-color: #404258;
-    
 }
 
 #home .nav-link {
     font-size: 18px;
     padding: 0 15px;
     color: whitesmoke;
-    
 }
 
 /*-------------CAROUSEL--------------*/
@@ -57,7 +57,6 @@ h1, h2, h3, h4 {
 
 .carousel-caption p {
     font-size: 24px;
-    
 }
 
 .carousel-caption a {
@@ -81,10 +80,6 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
-#menu img {
-    max-height: 160px;
-    max-width: 160px;
-}
 #menu .menu-items {
     padding-top: 60px;
 }
@@ -92,11 +87,16 @@ h1, h2, h3, h4 {
 .menu-items h4 {
     padding-bottom: 10px;
 }
-.spliter{
+.spliter {
     display: none;
 }
 .menu-items h5 {
-    line-height: 4rem;
+    line-height: 3.5rem;
+}
+
+.menu-items span {
+    font-family: 'Quattrocento', serif;
+    font-weight: bold;
 }
 
 .mains * {
@@ -112,17 +112,16 @@ h1, h2, h3, h4 {
     border-right: 2px solid whitesmoke;
 }
 
-
 /*----------RESERVATION BOOKING FORM-----------*/
 
 #reservations {
      color: whitesmoke;
-     background: url(../site-images/raw-chicken-breast-dark-background\ \(2\)\ \(1\).jpg) no-repeat center center / cover;
+     background: url(../site-images/raw-chicken-breast-dark-background-3.jpg) no-repeat center center / cover;
      padding: 15px;
 }
 
 /*-------------ABOUT----------------------*/
-.about-us{
+.about-us {
     background-color: #404258;
 }
 
@@ -132,15 +131,21 @@ h1, h2, h3, h4 {
 
 i {
     font-size: 150%
-    
 }
 
 
-/*----------MEDIA QUERIES------------------*/
+@media screen and (max-width: 1068px) {
+
+}
 
 
+/*----------MEDIA QUERIES MAX-WIDTH 768PX------------------*/
 
 @media screen and (max-width: 768px) {
+    #menu * {
+        font-size: 1.25rem;
+    }
+
     #menu .right-border {
         border-right: 0;
     }
@@ -152,11 +157,10 @@ i {
     #about .right-border {
         border-right: 0;
     }
-
 }
-    #menu p {
-        font-size: 90%;
-    }
+   
+
+/*-----------MEDIA QUERIES MAX-WIDTH 608PX----------*/
 
 @media  screen and  (max-width: 608px) {
     #carousel .carousel-item img {
@@ -164,6 +168,18 @@ i {
     }
     .spliter{
         display: inline;
+    }
+
+    #menu * {
+        font-size: 0.75rem;
+    }
+
+    #menu h5 {
+        line-height: 2rem;
+    }
+
+    #menu .menu-items {
+        padding-top: 10px;
     }
 }
     
