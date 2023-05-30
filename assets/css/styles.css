@@ -120,12 +120,18 @@ h1, h2, h3, h4, h5 {
      padding: 15px;
 }
 
-/*-------------ABOUT----------------------*/
-.about-us {
-    background-color: #404258;
+/*-------------OUR STORY----------------------*/
+
+.img-container {
+    height: 60vh;
 }
 
-/*-------------CONTACT----------------------*/
+#ourstory img {
+    height: 100%;
+    max-width: 100%;
+}
+
+/*-------------TESTIMONIALS----------------------*/
 
 /*-------------FOOTER----------------------*/
 
@@ -180,6 +186,13 @@ i {
 
     #menu .menu-items {
         padding-top: 10px;
+    }
+
+    #ourstory img {
+        max-height: 80vh;
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
     }
 }
     
