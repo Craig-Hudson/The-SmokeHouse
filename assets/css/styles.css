@@ -136,12 +136,27 @@ h1, h2, h3, h4, h5 {
 }
 /*-------------TESTIMONIALS----------------------*/
 
+#testimonial {
+    background-color: #27374D;
+    color: whitesmoke;
+    
+    border-bottom: 2px solid whitesmoke;
+}
+
+#testimonial h3 {
+    display: inline-block;
+    border-bottom: 1px solid whitesmoke;
+}
+
+#testimonial * {
+    padding: 6px;
+}
+
 .testimonial-image {
     height: 125px;
     width: 125px;
     border-radius: 100%
 }
-
 
 /*-------------FOOTER----------------------*/
 
@@ -149,12 +164,16 @@ footer {
     background-color: #27374D;
 }
 
+
+
 footer p {
+    display: inline-block;
     margin-bottom: 5px;
+    border-bottom: 1px solid whitesmoke;
 }
 
-i {
-    font-size: 125%;
+footer i {
+    font-size: 140%;
     padding: 5px 10px 10px 10px;
     color: whitesmoke;
 }
@@ -181,7 +200,7 @@ i {
         display: inline;
     }
 
-    #ourstory .right-border {
+    #our-story .right-border {
         border-right: 0;
     }
 
