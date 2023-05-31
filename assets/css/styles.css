@@ -122,8 +122,8 @@ h1, h2, h3, h4, h5 {
 
 /*-------------OUR STORY----------------------*/
 
-.img-container {
-    height: 60vh;
+#ourstory .img-container {
+    max-height: 80vh;
 }
 
 #ourstory img {
@@ -131,7 +131,18 @@ h1, h2, h3, h4, h5 {
     max-width: 100%;
 }
 
+.img-container img {
+    max-height: 80vh;
+}
+
 /*-------------TESTIMONIALS----------------------*/
+
+.testimonial-image {
+    height: 125px;
+    width: 125px;
+    border-radius: 100%
+}
+
 
 /*-------------FOOTER----------------------*/
 
@@ -192,7 +203,7 @@ i {
         padding-top: 10px;
     }
 
-    #ourstory img {
+    #our-story img {
         max-height: 80vh;
         object-fit: cover;
         object-position: center;
