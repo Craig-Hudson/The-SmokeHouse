@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5 {
 /*----------NAVBAR-----------*/
 
 #home {
-    background-color: #404258;
+    background-color: #27374D;
 }
 
 #home .nav-link {
@@ -56,13 +56,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .carousel-caption p {
-    font-size: 24px;
+    
 }
 
 .carousel-caption a {
     text-decoration: none;
     color: whitesmoke;
-    font-size: 24px;
+    
 }
 
 
@@ -122,11 +122,11 @@ h1, h2, h3, h4, h5 {
 
 /*-------------OUR STORY----------------------*/
 
-#ourstory .img-container {
+#our-story .img-container {
     max-height: 80vh;
 }
 
-#ourstory img {
+#our-story img {
     height: 100%;
     max-width: 100%;
 }
@@ -145,8 +145,18 @@ h1, h2, h3, h4, h5 {
 
 /*-------------FOOTER----------------------*/
 
+footer {
+    background-color: #27374D;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
 i {
-    font-size: 125%
+    font-size: 125%;
+    padding: 5px 10px 10px 10px;
+    color: whitesmoke;
 }
 
 
@@ -161,6 +171,7 @@ i {
     #menu * {
         font-size: 1.25rem;
     }
+
 
     #menu .right-border {
         border-right: 0;
@@ -225,4 +236,21 @@ i {
         max-height: 100vh !important;
     }
 }
-    
+  
+@media screen and (min-width: 768px) {
+    #home .container {
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+    .carousel-caption p {
+        font-size: 24px;
+    }
+    .carousel-caption p > a {
+        font-size: 24px;
+    }
+
+    .carousel-caption a {
+        font-size: 20px;
+    }
+}
