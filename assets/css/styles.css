@@ -160,8 +160,12 @@ i {
         display: inline;
     }
 
-    #about .right-border {
+    #ourstory .right-border {
         border-right: 0;
+    }
+
+    #reservations .vh-min-100 {
+        max-height: 100vh !important;
     }
 }
    
@@ -193,6 +197,22 @@ i {
         object-fit: cover;
         object-position: center;
         overflow: hidden;
+    }
+    /*-------RESERVATION PAGE--------*/
+    #reservations .w-50 {
+        width: 100% !important;
+    }
+
+    #reservations .pt-5 {
+        padding-top: 1.5rem !important;
+    }
+
+    #reservations .mt-5 {
+        margin-top: 1rem !important;
+    }
+
+    #reservations .vh-min-100 {
+        max-height: 100vh !important;
     }
 }
     
