@@ -147,10 +147,12 @@ h1, h2, h3, h4, h5 {
 }
 
 .testimonial-image {
-    height: 125px;
-    width: 125px;
+    height: 150px;
+    width: 150px;
     border-radius: 100%
 }
+
+
 
 /*-------------FOOTER----------------------*/
 
