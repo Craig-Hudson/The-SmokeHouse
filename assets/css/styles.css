@@ -38,35 +38,24 @@ h1, h2, h3, h4, h5 {
 /*-------------CAROUSEL--------------*/
 
 #carousel .carousel-item img {
-    height: 92vh;
+    height: 93vh;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
 }
 
 .carousel-caption {
-    top: 0;
-    bottom: auto;
-    padding-bottom: 20px;
+    line-height: 15vh;
 }
 
-.carousel-caption * {
-    padding: 15px 0;
-    text-align: center;
-}
-
-.carousel-caption p {
-    
-}
 
 .carousel-caption a {
     text-decoration: none;
     color: whitesmoke;
-    
 }
 
-
 /*----------MENU---------------*/
+
 #menu {
     padding-top: 20px;
     background-color: #27374D;
@@ -122,13 +111,18 @@ h1, h2, h3, h4, h5 {
 
 /*-------------OUR STORY----------------------*/
 
+#our-story {
+    background-color: #9DB2BF;
+    padding-top: 10px;
+}
+
 #our-story .img-container {
-    max-height: 80vh;
+    max-height: 50vh;
 }
 
 #our-story img {
-    height: 100%;
-    max-width: 100%;
+    width: 100%;
+    height: 50vh;
 }
 
 .img-container img {
@@ -207,15 +201,21 @@ footer i {
     #reservations .vh-min-100 {
         max-height: 100vh !important;
     }
+
+    #carousel .carousel-item img {
+        height: 42vh;
+    }
+
+    .carousel-caption {
+        line-height: 0;
+    }
 }
    
 
 /*-----------MEDIA QUERIES MAX-WIDTH 608PX----------*/
 
 @media  screen and  (max-width: 608px) {
-    #carousel .carousel-item img {
-        height: 42vh;
-    }
+    /*--------------MENU MEDIA QUERIES-------------*/
     .spliter{
         display: inline;
     }
@@ -238,7 +238,9 @@ footer i {
         object-position: center;
         overflow: hidden;
     }
-    /*-------RESERVATION PAGE--------*/
+
+    /*-------RESERVATION PAGE MEDIA QUERIES--------*/
+
     #reservations .w-50 {
         width: 100% !important;
     }
@@ -256,10 +258,16 @@ footer i {
     }
 }
   
+
+
 @media screen and (min-width: 768px) {
     #home .container {
         margin-left: 0;
         margin-right: 50px;
+    }
+
+    .carousel-caption {
+        bottom: 9rem !important;
     }
 
     .carousel-caption p {
@@ -269,7 +277,13 @@ footer i {
         font-size: 24px;
     }
 
-    .carousel-caption a {
+    .carousel-caption .btn {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1208px) {
+    .carousel-caption {
+        bottom: 11rem !important;
     }
 }
