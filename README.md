@@ -48,7 +48,6 @@ The aims for this website are to make it easier for existing and new potential c
   - I will be using white smoke and #526D82 color text against the background colors.
   - I will be using #27374D and #DDE6ED as background colors
 
-
   - **typography**
     - For headings I will be using Black Han Sans with a fallback of sans-serif.
     - For page text I will be using Quattrocento with a fall back of serif.
@@ -81,11 +80,15 @@ The aims for this website are to make it easier for existing and new potential c
 
 Git - For version control.
 ​
+
 [Github](https://github.com/Craig-Hudson) - To save and store the files for the website.
+
 ​
 [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
 ​
 [Font Awesome](https://fontawesome.com/) - For the iconography on the website.
+
 ​
 Chrome Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
@@ -101,7 +104,7 @@ Chrome Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 ### Local Development
 
-## Testing 
+## Testing
 
 ### Solved bugs
 
@@ -114,6 +117,5 @@ Chrome Dev Tools - To troubleshoot and test features, solve issues with responsi
 ### Content
 
 ### media
-
 
 ### Acknowledgments
