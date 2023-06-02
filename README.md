@@ -23,6 +23,8 @@ The aims for this website are to make it easier for existing and new potential c
   - [Testing](#testing)
     - [Solved bugs](#solved-bugs)
     - [Known Bugs](#known-bugs)
+    - [Testing User Stories](#testing-user-stories)
+    - [LightHouse](#lighthouse)
   - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
@@ -100,6 +102,8 @@ Chrome Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [image resizer](https://imageresizer.com/) - To reduce any unnecessary height and width on photos, also minimizing file size
 
+[visily](https://app.visily.ai/) To create my wireframes.
+
 ## Deployment & Local Development
 
 ### Deployment
@@ -136,7 +140,7 @@ To clone The SmokeHouse repository:
 
 1. Log in (or sign up) to GitHub.
 2. Go to the repository for this project, Birmingham-egg-milestone-project.
-3. Click on the code button, select whether you would like to clone with HTTPS!(<https://github.com/Craig-Hudson/The-SmokeHouse>) and copy the link shown.
+3. Click on the code button, select whether you would like to clone with HTTPS !(<https://github.com/Craig-Hudson/The-SmokeHouse>) and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 ​
@@ -145,7 +149,13 @@ To clone The SmokeHouse repository:
 
 ### Solved bugs
 
+-1. Testimonial horizontal alignment at the bottom kept changing on different device widths, so instead of using bootstrap grid for the layout i went with css flexbox to combat this issue.
+
 ### Known Bugs
+
+### Testing User Stories
+
+### LightHouse
 
 ## Credits
 
