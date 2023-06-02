@@ -43,9 +43,11 @@ The aims for this website are to make it easier for existing and new potential c
 ### Design
 
 - **Colour Scheme**
+    ![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
+
   - I will be using white smoke and #526D82 color text against the background colors.
   - I will be using #27374D and #DDE6ED as background colors
-      ![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
+
 
   - **typography**
     - For headings I will be using Black Han Sans with a fallback of sans-serif.
@@ -76,6 +78,22 @@ The aims for this website are to make it easier for existing and new potential c
 ### Languages Used
 
 ### Frameworks, Libraries & Programs Used
+
+Git - For version control.
+​
+[Github](https://github.com/Craig-Hudson) - To save and store the files for the website.
+​
+[Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+​
+[Font Awesome](https://fontawesome.com/) - For the iconography on the website.
+​
+Chrome Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/download/) - To help create a responsive website with the use of bootstrap grid, and bootstrap classes
+
+[tiny.png](https://tinypng.com/) - To reduce the file size of my images for better website performance
+
+[image resizer](https://imageresizer.com/) - To reduce any unnecessary height and width on photos, also minimizing file size
 
 ## Deployment & Local Development
 
