@@ -18,6 +18,8 @@ The aims for this website are to make it easier for existing and new potential c
   - [Deployment \& Local Development](#deployment--local-development)
     - [Deployment](#deployment)
     - [Local Development](#local-development)
+      - [How to Fork](#how-to-fork)
+      - [How to Clone](#how-to-clone)
   - [Testing](#testing)
     - [Solved bugs](#solved-bugs)
     - [Known Bugs](#known-bugs)
@@ -102,7 +104,42 @@ Chrome Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 ### Deployment
 
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+​
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, birmingham-egg-milestone-project.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+​
+
 ### Local Development
+
+#### How to Fork
+
+​
+To fork The SmokeHouse repository:
+​
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, The SmokeHouse !(<https://github.com/Craig-Hudson/The-SmokeHouse>)
+3. Click the Fork button in the top right corner.
+​
+
+#### How to Clone
+
+​
+To clone The SmokeHouse repository:
+​
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, Birmingham-egg-milestone-project.
+3. Click on the code button, select whether you would like to clone with HTTPS!(<https://github.com/Craig-Hudson/The-SmokeHouse>) and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+​
 
 ## Testing
 
