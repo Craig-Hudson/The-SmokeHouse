@@ -25,8 +25,9 @@ The aims for this website are to make it easier for existing and new potential c
 - **Design**
 
   - **Colour Scheme**
-    - I will be using white smoke color text against the background colors
-    ![color pallette](assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
+    - I will be using white smoke and #526D82 color text against the background colors.
+    - I will be using #27374D and #DDE6ED as background colors
+    ![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
 
   - **typography**
     - For headings I will be using Black Han Sans with a fallback of sans-serif.
