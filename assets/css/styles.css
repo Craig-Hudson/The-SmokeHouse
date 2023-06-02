@@ -76,9 +76,11 @@ h1, h2, h3, h4, h5 {
 .menu-items h4 {
     padding-bottom: 10px;
 }
+
 .spliter {
     display: none;
 }
+
 .menu-items h5 {
     line-height: 3.5rem;
 }
@@ -113,36 +115,33 @@ h1, h2, h3, h4, h5 {
 
 #our-story {
     background-color: #9DB2BF;
-    padding-top: 10px;
+    padding: 20px 0;
 }
 
 #our-story .img-container {
-    max-height: 50vh;
+    max-height: 60vh;
 }
 
 #our-story img {
     width: 100%;
-    height: 50vh;
+    max-height: 60vh;
 }
 
-.img-container img {
-    max-height: 80vh;
-}
 /*-------------TESTIMONIALS----------------------*/
 
-#testimonial {
+#testimonials {
     background-color: #27374D;
     color: whitesmoke;
-    
     border-bottom: 2px solid whitesmoke;
+    padding: 20px 0;
 }
 
-#testimonial h3 {
+#testimonials h3 {
     display: inline-block;
     border-bottom: 1px solid whitesmoke;
 }
 
-#testimonial * {
+#testimonials * {
     padding: 6px;
 }
 
@@ -152,7 +151,19 @@ h1, h2, h3, h4, h5 {
     border-radius: 100%
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /*-------------FOOTER----------------------*/
 
@@ -179,6 +190,59 @@ footer i {
 
 }
 
+/*-----------MEDIA QUERIES MAX-WIDTH 608PX----------*/
+
+@media  screen and  (max-width: 608px) {
+
+    /*--------------MENU MEDIA QUERIES 608PX-------------*/
+
+    .spliter{
+        display: inline;
+    }
+
+    #menu * {
+        font-size: 0.75rem;
+    }
+
+    #menu h5 {
+        line-height: 2rem;
+    }
+
+    #menu .menu-items {
+        padding-top: 10px;
+    }
+
+    #our-story img {
+        max-height: 60vh;
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+    }
+
+    /*-------RESERVATION PAGE MEDIA QUERIES 608PX--------*/
+
+    #reservations .w-50 {
+        width: 100% !important;
+    }
+
+    #reservations .pt-5 {
+        padding-top: 1.5rem !important;
+    }
+
+    #reservations .mt-5 {
+        margin-top: 1rem !important;
+    }
+
+    #reservations .vh-min-100 {
+        max-height: 100vh !important;
+    }
+
+    /*========TESTIMONIAL MEDIA QUERIES 608PX========*/
+
+    .flex-col {
+        width: 100%;
+    }
+}
 
 /*----------MEDIA QUERIES MAX-WIDTH 768PX------------------*/
 
@@ -192,7 +256,7 @@ footer i {
         border-right: 0;
     }
     
-    .spliter{
+    .spliter {
         display: inline;
     }
 
@@ -211,56 +275,23 @@ footer i {
     .carousel-caption {
         line-height: 0;
     }
-}
-   
 
-/*-----------MEDIA QUERIES MAX-WIDTH 608PX----------*/
+    /*=========OUR STORY MEDIA QUERIES===========*/
 
-@media  screen and  (max-width: 608px) {
-    /*--------------MENU MEDIA QUERIES-------------*/
-    .spliter{
-        display: inline;
-    }
-
-    #menu * {
-        font-size: 0.75rem;
-    }
-
-    #menu h5 {
-        line-height: 2rem;
-    }
-
-    #menu .menu-items {
-        padding-top: 10px;
-    }
-
-    #our-story img {
-        max-height: 80vh;
-        object-fit: cover;
-        object-position: center;
-        overflow: hidden;
-    }
-
-    /*-------RESERVATION PAGE MEDIA QUERIES--------*/
-
-    #reservations .w-50 {
+    .card-body {
         width: 100% !important;
     }
 
-    #reservations .pt-5 {
-        padding-top: 1.5rem !important;
+    /*==========TESTIMONIALS MEDIA QUERIES 768PX====*/
+
+    img {
+        width: 125px;
+        height: 125px;
     }
 
-    #reservations .mt-5 {
-        margin-top: 1rem !important;
-    }
-
-    #reservations .vh-min-100 {
-        max-height: 100vh !important;
-    }
 }
   
-
+/*=============MEDIA QUERIES MIN WIDTH 768PX==========*/
 
 @media screen and (min-width: 768px) {
     #home .container {
@@ -283,6 +314,8 @@ footer i {
         font-size: 20px;
     }
 }
+
+/*=============MEDIA QUERIES MIN WIDTH 1208PX==========*/
 
 @media screen and (min-width: 1208px) {
     .carousel-caption {
