@@ -5,15 +5,33 @@
 
 Here we have a fresh responsive website for a local independent restaurant.
 The aims for this website are to make it easier for existing and new potential customers to be able to make online reservations and to be able to easily view what the restaurant offers and not only that we want all new potential customers to be able to view stunning images of our fresh modern restaurant, and we want them to be able to view testimonials from previous customers.
+**Table of contents**
 
 - [The SmokeHouse](#the-smokehouse)
   - [User Experience (UX)](#user-experience-ux)
+    - [User Stories (US)](#user-stories-us)
+    - [Design](#design)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Deployment \& Local Development](#deployment--local-development)
+    - [Deployment](#deployment)
+    - [Local Development](#local-development)
+  - [Testing](#testing)
+    - [Solved bugs](#solved-bugs)
+    - [Known Bugs](#known-bugs)
+  - [Credits](#credits)
+    - [Code Used](#code-used)
+    - [Content](#content)
+    - [media](#media)
+    - [Acknowledgments](#acknowledgments)
 
 ## User Experience (UX)
 
-- **User Stories**
+### User Stories (US)
 
-  - **First time visitor goals**
+- **First time visitor goals**
     1. As a first time visitor i want a nice clean site that is easy to navigate.
     2. As a first time visitor i want to be able to easily identify where to find the menu.
     3. As a first time visitor i want to be able to easily find the whereabouts of the restaurant.
@@ -22,12 +40,12 @@ The aims for this website are to make it easier for existing and new potential c
     1. As a returning Visitor i want to know if their are any current offers/deals on.
     2. As a returning visitor i want to be able to easily find contact information for any queries.
 
-- **Design**
+### Design
 
-  - **Colour Scheme**
-    - I will be using white smoke and #526D82 color text against the background colors.
-    - I will be using #27374D and #DDE6ED as background colors
-    ![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
+- **Colour Scheme**
+  - I will be using white smoke and #526D82 color text against the background colors.
+  - I will be using #27374D and #DDE6ED as background colors
+      ![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
 
   - **typography**
     - For headings I will be using Black Han Sans with a fallback of sans-serif.
@@ -51,3 +69,33 @@ The aims for this website are to make it easier for existing and new potential c
     ![Mobile reservation page](/assets/readme-images/mobile-reservation-page.png "mobile reservation wireframe")
   </details>
 
+## Features
+
+## Technologies Used
+
+### Languages Used
+
+### Frameworks, Libraries & Programs Used
+
+## Deployment & Local Development
+
+### Deployment
+
+### Local Development
+
+## Testing 
+
+### Solved bugs
+
+### Known Bugs
+
+## Credits
+
+### Code Used
+
+### Content
+
+### media
+
+
+### Acknowledgments
