@@ -11,8 +11,6 @@ The aims for this website are to make it easier for existing and new potential c
 
 ## User Experience (UX)
 
--
-
 - **User Stories**
 
   - **First time visitor goals**
@@ -27,16 +25,20 @@ The aims for this website are to make it easier for existing and new potential c
 - **Design**
 
   - **Colour Scheme**
-    - The main colours used will be a dark shade of cyan-blue and white.
+    - I will be using white smoke color text against the background colors
+    ![color pallette](assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
 
   - **typography**
     - For headings I will be using Black Han Sans with a fallback of sans-serif.
     - For page text I will be using Quattrocento with a fall back of serif.
 
   - **Structure**
-    - The structure will be a single scrolling page, with each section taking up the full viewport height to help clearly define each section.
+    - The structure will be a single scrolling page, with multiple pages with each section being clearly identifiable, and a separate page for the reservation booking form.
 
-- **Wireframes**
+  - **Imagery**
+    - I will be using images of food and pictures of the restaurant to create more of a visual effect and to make the site more appealing to viewers.
+
+  - **Wireframes**
   <details>
     <summary>Wireframes</summary>
 
@@ -47,3 +49,4 @@ The aims for this website are to make it easier for existing and new potential c
     ![Mobile home page wireframe](/assets/readme-images/mobile-home.png "mobile home wireframe")
     ![Mobile reservation page](/assets/readme-images/mobile-reservation-page.png "mobile reservation wireframe")
   </details>
+
