@@ -33,6 +33,11 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     padding: 0 15px;
     color: whitesmoke;
+    
+}
+
+#home a:hover {
+    color: #9DB2BF;
 }
 
 /*-------------CAROUSEL--------------*/
@@ -125,6 +130,10 @@ h1, h2, h3, h4, h5 {
 #our-story img {
     width: 100%;
     max-height: 60vh;
+}
+
+.card, .list-group span {
+    color: #526D82;
 }
 
 /*-------------TESTIMONIALS----------------------*/
