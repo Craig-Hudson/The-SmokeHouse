@@ -51,12 +51,17 @@ h1, h2, h3, h4, h5 {
 
 .carousel-caption {
     line-height: 15vh;
+    letter-spacing: 2px;
 }
 
 
 .carousel-caption a {
     text-decoration: none;
     color: whitesmoke;
+}
+
+.carousel-caption p {
+    font-weight: bold;
 }
 
 /*----------MENU---------------*/
@@ -68,6 +73,7 @@ h1, h2, h3, h4, h5 {
 }
 #menu h2, h3, h4, h5 {
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #menu h2, h3 {
@@ -106,6 +112,15 @@ h1, h2, h3, h4, h5 {
 
 .right-border {
     border-right: 2px solid whitesmoke;
+}
+
+.float-end {
+    font-size: 1rem;
+}
+
+.border-bottom {
+    display: inline-block;
+    padding: 0 !important;
 }
 
 /*----------RESERVATION BOOKING FORM-----------*/
@@ -204,13 +219,13 @@ footer i {
 @media  screen and  (max-width: 608px) {
 
     /*--------------MENU MEDIA QUERIES 608PX-------------*/
-
+    
     .spliter{
         display: inline;
     }
 
     #menu * {
-        font-size: 0.75rem;
+        font-size: 0.75rem !important;
     }
 
     #menu h5 {
@@ -260,7 +275,6 @@ footer i {
         font-size: 1.25rem;
     }
 
-
     #menu .right-border {
         border-right: 0;
     }
@@ -282,7 +296,11 @@ footer i {
     }
 
     .carousel-caption {
-        line-height: 0;
+        line-height: 3;
+    }
+
+    #menu .calories {
+        font-size:  0.5rem !important;
     }
 
     /*=========OUR STORY MEDIA QUERIES===========*/
@@ -293,7 +311,7 @@ footer i {
 
     /*==========TESTIMONIALS MEDIA QUERIES 768PX====*/
 
-    img {
+    .testimonial-image {
         width: 125px;
         height: 125px;
     }
