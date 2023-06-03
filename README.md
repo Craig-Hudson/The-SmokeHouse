@@ -229,10 +229,19 @@ To clone The SmokeHouse repository:
 
 ### Code Used
 
+[Bootstrap carousel](http://https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works "Bootstrap carousel") - I used the code from bootstrap to create the structure of the carousel and have added additional bootstrap classes and my own elements where necessary.
+
+[Bootstrap hamburger menu](http:/https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works/ "Bootstrap hamburger menu") - I used the code from bootstrap v 5.3 to create the hamburger menu
 ### Content
+
+Content for this project was written by Craig Hudson
 
 ### media
 
 ### Acknowledgments
 
+I would like to acknowledge the following people who helped me along the way in completing this project:
 
+- My code institute mentor Narender Singh for all his help and patience with me !
+- My partner for having the patience with me and allowing me more time to work on projects.
+- My fellow classmates for any hints and tips that they have given me over the last two months.
