@@ -120,6 +120,10 @@ Chrome Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [W3School](https://www.w3schools.com/) To refer to anything CSS related that i may have been unsure of
 
+[Pexels](https://www.pexels.com/) I used pexels for all my images for this project
+
+VsCode - I have used vscode as my ide
+
 ## Deployment & Local Development
 
 ### Deployment
@@ -232,7 +236,10 @@ To clone The SmokeHouse repository:
 [Bootstrap carousel](http://https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works "Bootstrap carousel") - I used the code from bootstrap to create the structure of the carousel and have added additional bootstrap classes and my own elements where necessary.
 
 [Bootstrap hamburger menu](http:/https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works/ "Bootstrap hamburger menu") - I used the code from bootstrap v 5.3 to create the hamburger menu
+
 ### Content
+
+The use of the bootstrap framework was used to create the carousel and the hamburger menu.
 
 Content for this project was written by Craig Hudson
 
