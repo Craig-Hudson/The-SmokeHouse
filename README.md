@@ -21,10 +21,16 @@ The aims for this website are to make it easier for existing and new potential c
       - [How to Fork](#how-to-fork)
       - [How to Clone](#how-to-clone)
   - [Testing](#testing)
-    - [Solved bugs](#solved-bugs)
-    - [Known Bugs](#known-bugs)
-    - [Testing User Stories](#testing-user-stories)
-    - [LightHouse](#lighthouse)
+    - [Automated Testing](#automated-testing)
+      - [W3C Validator](#w3c-validator)
+      - [Lighthouse](#lighthouse)
+      - [Wave](#wave)
+    - [manual Testing](#manual-testing)
+      - [Testing User Stories](#testing-user-stories)
+      - [Full Testing](#full-testing)
+    - [Bugs](#bugs)
+      - [Solved bugs](#solved-bugs)
+      - [Known Bugs](#known-bugs)
   - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
@@ -147,15 +153,68 @@ To clone The SmokeHouse repository:
 
 ## Testing
 
-### Solved bugs
+### Automated Testing
 
--1. Testimonial horizontal alignment at the bottom kept changing on different device widths, so instead of using bootstrap grid for the layout i went with css flexbox to combat this issue.
+#### W3C Validator
 
-### Known Bugs
+#### Lighthouse
 
-### Testing User Stories
+#### Wave
 
-### LightHouse
+### manual Testing
+
+#### Testing User Stories
+
+|   |   |   |
+| ------------ | ------------ | ------------ |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+#### Full Testing
+
+|   |   |   |
+| ------------ | ------------ | ------------ |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+### Bugs
+
+#### Solved bugs
+
+|  no   | Bug  | How i Solved the bug
+| ------------ | ----------- | -------------- |
+|  1 | The bottom alignment of the testimonial section wasn't aligning on smaller devices under 768px  | At the time i had bootstrap classes which worked fine on larger screen sizes. So i went with using flexbox and using the space-around property to give the top and bottom alignment a fixed height, along with flex wrap so that all text is wrapped inside each container.  |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+#### Known Bugs
+
+|  known bugs | Bug issue  | Plan to resolve  |
+| ------------ | ------------ | ------------ |
+| 1  | Bottom alignment on the x -axis was not aligned on smaller devices in the testimonial section  | Use flexbox to resolve the issue  |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+
+
 
 ## Credits
 
