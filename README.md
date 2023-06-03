@@ -3,11 +3,11 @@
 ------------
 [Link to live site here]( https://craig-hudson.github.io/The-SmokeHouse/ "Link to live site here")
 
-Here we have a fresh responsive website for a local independent restaurant.
-The aims for this website are to make it easier for existing and new potential customers to be able to make online reservations and to be able to easily view what the restaurant offers and not only that we want all new potential customers to be able to view stunning images of our fresh modern restaurant, and we want them to be able to view testimonials from previous customers.
-**Table of contents**
+## Table of Contents
 
 - [The SmokeHouse](#the-smokehouse)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
   - [User Experience (UX)](#user-experience-ux)
     - [User Stories (US)](#user-stories-us)
     - [Design](#design)
@@ -28,6 +28,7 @@ The aims for this website are to make it easier for existing and new potential c
     - [manual Testing](#manual-testing)
       - [Testing User Stories](#testing-user-stories)
       - [Full Testing](#full-testing)
+        - [Home Page](#home-page)
     - [Bugs](#bugs)
       - [Solved bugs](#solved-bugs)
       - [Known Bugs](#known-bugs)
@@ -36,6 +37,11 @@ The aims for this website are to make it easier for existing and new potential c
     - [Content](#content)
     - [media](#media)
     - [Acknowledgments](#acknowledgments)
+
+## Introduction
+
+Here we have a fresh responsive website for a local independent restaurant.
+The aims for this website are to make it easier for existing and new potential customers to be able to make online reservations and to be able to easily view what the restaurant offers and not only that we want all new potential customers to be able to view stunning images of our fresh modern restaurant, and we want them to be able to view testimonials from previous customers.
 
 ## User Experience (UX)
 
@@ -53,9 +59,9 @@ The aims for this website are to make it easier for existing and new potential c
 ### Design
 
 - **Colour Scheme**
-    ![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
+  ![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
 
-  - I will be using white smoke and #526D82 color text against the background colors.
+  - I will be using white smoke and #526D82 colour text against the background colours.
   - I will be using #27374D and #DDE6ED as background colors
 
   - **typography**
@@ -70,14 +76,14 @@ The aims for this website are to make it easier for existing and new potential c
 
   - **Wireframes**
   <details>
-    <summary>Wireframes</summary>
+  <summary>Wireframes</summary>
 
-    ![Desktop home page wireframe](/assets/readme-images/desktop-home.png "desktop home page wireframe")
-    ![Desktop reservation page wireframe](/assets/readme-images/desktop-reservation-page.png "desktop reservation wireframe")
-    ![Tablet home page wireframe](/assets/readme-images/tablet-home.png "tablet home page wireframe")
-    ![Tablet reservation page wireframe](/assets/readme-images/tablet-reservation-page.png "tablet reservation wireframe")
-    ![Mobile home page wireframe](/assets/readme-images/mobile-home.png "mobile home wireframe")
-    ![Mobile reservation page](/assets/readme-images/mobile-reservation-page.png "mobile reservation wireframe")
+  ![Desktop home page wireframe](/assets/readme-images/desktop-home.png "desktop home page wireframe")
+  ![Desktop reservation page wireframe](/assets/readme-images/desktop-reservation-page.png "desktop reservation wireframe")
+  ![Tablet home page wireframe](/assets/readme-images/tablet-home.png "tablet home page wireframe")
+  ![Tablet reservation page wireframe](/assets/readme-images/tablet-reservation-page.png "tablet reservation wireframe")
+  ![Mobile home page wireframe](/assets/readme-images/mobile-home.png "mobile home wireframe")
+  ![Mobile reservation page](/assets/readme-images/mobile-reservation-page.png "mobile reservation wireframe")
   </details>
 
 ## Features
@@ -85,6 +91,8 @@ The aims for this website are to make it easier for existing and new potential c
 ## Technologies Used
 
 ### Languages Used
+
+HTML and CSS have been used for this project
 
 ### Frameworks, Libraries & Programs Used
 
@@ -106,9 +114,11 @@ Chrome Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [tiny.png](https://tinypng.com/) - To reduce the file size of my images for better website performance
 
-[image resizer](https://imageresizer.com/) - To reduce any unnecessary height and width on photos, also minimizing file size
+[Image resizer](https://imageresizer.com/) - To reduce any unnecessary height and width on photos, also minimizing file size
 
 [visily](https://app.visily.ai/) To create my wireframes.
+
+[W3School](https://www.w3schools.com/) To refer to anything CSS related that i may have been unsure of
 
 ## Deployment & Local Development
 
@@ -165,29 +175,31 @@ To clone The SmokeHouse repository:
 
 #### Testing User Stories
 
-|   |   |   |
+|  First Time Vistors |   |   |
 | ------------ | ------------ | ------------ |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+|  Goals | How They are achieved  |
+| As a first time visitor i want a nice clean site that is easy to navigate.  |  This was achieved with a clear navigation bar at the top of the page, and the use of a hamburger menu for navigation on devices with a less than 768px|
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
 
 #### Full Testing
 
-|   |   |   |
-| ------------ | ------------ | ------------ |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+##### Home Page
+
+|  Feature | Expected Outcome  | Testing Performed  | Result  | Pass/Fail  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 ### Bugs
 
@@ -213,9 +225,6 @@ To clone The SmokeHouse repository:
 |   |   |   |
 |   |   |   |
 
-
-
-
 ## Credits
 
 ### Code Used
@@ -225,3 +234,5 @@ To clone The SmokeHouse repository:
 ### media
 
 ### Acknowledgments
+
+
