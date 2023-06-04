@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 
-.right-border {
+#menu .right-border {
     border-right: 2px solid whitesmoke;
 }
 
@@ -170,7 +170,13 @@ h1, h2, h3, h4, h5 {
 
 .card, .list-group span {
     color: #526D82; 
+    padding-top: 10px;
 }
+
+.block {
+    display: block;
+}
+
 
 /*-------------TESTIMONIALS----------------------*/
 
@@ -187,7 +193,11 @@ h1, h2, h3, h4, h5 {
 }
 
 #testimonials * {
-    padding: 6px;
+    padding: 8px;
+}
+
+#testimonials h4 {
+    font-size: 1.35rem;
 }
 
 .testimonial-image {
@@ -270,12 +280,18 @@ footer i {
         overflow: hidden;
     }
 
-    
-
     /*========TESTIMONIAL MEDIA QUERIES 608PX========*/
 
     .flex-col {
         width: 100% !important;
+    }
+
+    #testimonials h3 {
+        font-size: 1.15rem;
+    }
+
+    #testimonials h4 {
+        font-size: 1rem;
     }
 }
 
@@ -325,7 +341,7 @@ footer i {
 
     
 
-    /*=========OUR STORY MEDIA QUERIES===========*/
+    /*=========OUR STORY MEDIA QUERIES MEDIA QUERIES 768P===========*/
 
     .card-body {
         width: 100% !important;
