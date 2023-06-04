@@ -69,7 +69,7 @@ The aims for this website are to make it easier for existing and new potential c
     - For page text I will be using Quattrocento with a fall back of serif.
 
   - **Structure**
-    - The structure will be a single scrolling page, with multiple pages with each section being clearly identifiable, and a separate page for the reservation booking form.
+    - The structure will be a single scrolling page, with multiple pages with each section being clearly identifiable, and the use of a pop up modal for the reservation booking form.
 
   - **Imagery**
     - I will be using images of food and pictures of the restaurant to create more of a visual effect and to make the site more appealing to viewers.
@@ -124,6 +124,8 @@ Chrome Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 VsCode - I have used vscode as my ide
 
+[Covertio.co](https://convertio.co/jpg-webp/) I have used Convertio to convert image formats to webp
+
 ## Deployment & Local Development
 
 ### Deployment
@@ -132,7 +134,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 ​
 
 1. Log in (or sign up) to Github.
-2. Find the repository for this project, birmingham-egg-milestone-project.
+2. Find the repository for this project here > [The Smokehouse](<https://github.com/Craig-Hudson/The-SmokeHouse>)
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
@@ -173,19 +175,23 @@ To clone The SmokeHouse repository:
 
 #### Lighthouse
 
+![Desktop Lighthouse first report](assets/readme-images/deskptop-lightouse-report1.png)
+
+![Mobile Lighthouse first report](assets/readme-images/mobile-lighthouse-report.png)
+
 #### Wave
 
 ### manual Testing
 
 #### Testing User Stories
 
-|  First Time Vistors |   |   |
+|  First Time Visitors |   |   |
 | ------------ | ------------ | ------------ |
 |  Goals | How They are achieved  |
 | As a first time visitor i want a nice clean site that is easy to navigate.  |  This was achieved with a clear navigation bar at the top of the page, and the use of a hamburger menu for navigation on devices with a less than 768px|
-|   |   |
-|   |   |
-|   |   |
+| As a first time visitor i want to be able to easily identify where to find the menu  | This was achieved by having a link in the navigation bar at the top of the page which would take a user directly to the menu section, also there is a link for the menu on the first carousel image which would take a user to the menu  |
+|  As a first time visitor i want to be able to easily find the whereabouts of the restaurant | This was achived by having the location of the restaurant in the our story section of the page.  |
+| Returning Visitor goals  |   |
 |   |   |
 |   |   |
 |   |   |
@@ -211,9 +217,9 @@ To clone The SmokeHouse repository:
 
 |  no   | Bug  | How i Solved the bug
 | ------------ | ----------- | -------------- |
-|  1 | The bottom alignment of the testimonial section wasn't aligning on smaller devices under 768px  | At the time i had bootstrap classes which worked fine on larger screen sizes. So i went with using flexbox and using the space-around property to give the top and bottom alignment a fixed height, along with flex wrap so that all text is wrapped inside each container.  |
-|   |   |   |
-|   |   |   |
+| 1 |   |   |
+| 2 | On wider screen widths the menu alignment got far to stretched and looked off  | I noticed i had the bootstrap class container-fluid set as the container which gives the container the full width of the screen, so i changed the bootstrap class to container, which will only allow the width on the container to be as wide as the content inside of it  |
+| 3 |  On Different screen widths the testimonial sections alignment of the images and the star ratings would not align horizontally  | I had a play around with different flexbox properties and i ended up aligning the container of the testimonial section to align-items: flex-start as they aligned the images and the star ratings  |
 |   |   |   |
 |   |   |   |
 |   |   |   |
@@ -222,9 +228,9 @@ To clone The SmokeHouse repository:
 
 |  known bugs | Bug issue  | Plan to resolve  |
 | ------------ | ------------ | ------------ |
-| 1  | Bottom alignment on the x -axis was not aligned on smaller devices in the testimonial section  | Use flexbox to resolve the issue  |
-|   |   |   |
-|   |   |   |
+| 1  |  |  |
+| 2  | On wider screen widths the menu alignment got far to stretched and looked off  | I plan to ensure that the container is only as wide as it needs to be  |
+| 3 | On Different screen widths the testimonial sections alignment of the images and the star ratings would not align horizontally  | I plan to use flexbox to resolve this issue.  |
 |   |   |   |
 |   |   |   |
 |   |   |   |
@@ -239,7 +245,7 @@ To clone The SmokeHouse repository:
 
 ### Content
 
-The use of the bootstrap framework was used to create the carousel and the hamburger menu.
+The use of the bootstrap libraries was used to create the carousel and the hamburger menu and the modal for the reservation booking form
 
 Content for this project was written by Craig Hudson
 
