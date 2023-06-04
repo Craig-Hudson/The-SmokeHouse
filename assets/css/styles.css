@@ -34,7 +34,6 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     padding: 0 15px;
     color: whitesmoke;
-    
 }
 
 #home a:hover {
@@ -67,9 +66,24 @@ h1, h2, h3, h4, h5 {
 
 /*------------------MODAL----------------*/
 
+.modal-content {
+    background-color: #27374D !important;
+    color: whitesmoke !important;
+}
+
+.modal-header {
+    text-align: center !important;
+}
+
 .book-now-center {
     display: flex;
     justify-content: center;
+}
+
+.book-now-center .button {
+    background-color: #9DB2BF;
+    color: whitesmoke;
+    font-weight: bold;
 }
 
 /*----------MENU---------------*/
@@ -189,6 +203,7 @@ h1, h2, h3, h4, h5 {
     display: flex;
     flex-wrap: wrap;
     height: auto;
+    align-items: flex-start;
 }
 
 .flex-col {
@@ -206,7 +221,6 @@ footer {
 }
 
 
-
 footer p {
     display: inline-block;
     margin-bottom: 5px;
@@ -217,11 +231,6 @@ footer i {
     font-size: 140%;
     padding: 5px 10px 10px 10px;
     color: whitesmoke;
-}
-
-
-@media screen and (max-width: 1068px) {
-
 }
 
 /*-----------MEDIA QUERIES MAX-WIDTH 608PX----------*/
@@ -246,11 +255,18 @@ footer i {
         padding-top: 10px;
     }
 
+/*=========OUR STORY MEDIA QUERIES MAX-WIDTH 608PX========*/
+
     #our-story img {
         max-height: 60vh;
         object-fit: cover;
         object-position: center;
         overflow: hidden;
+    }
+
+    #our-story .list-group {
+        display: flex;
+        align-items: flex-start;
     }
 
     /*========TESTIMONIAL MEDIA QUERIES 608PX========*/
@@ -285,10 +301,6 @@ footer i {
 
     .spliter {
         display: inline;
-    }
-
-    #our-story .right-border {
-        border-right: 0;
     }
 
     #carousel .carousel-item img {
@@ -330,9 +342,10 @@ footer i {
         width: 50%;
     }
 
-    #our-story .w-75 {
+    .card-body  {
         width: 100% !important;
     }
+    
 }
 
 
