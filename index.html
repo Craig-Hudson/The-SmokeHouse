@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The smokehouse one of the best smokehouse restaurants in the UK">
-    <meta name="keywords" content="smokehouse, restaurants, food, drink, customer service">
-    <meta name="author" content="The Smokehouse">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The smokehouse one of the best smokehouse restaurants in the UK" />
+    <meta name="keywords" content="smokehouse, restaurants, food, drink, customer service" />
+    <meta name="author" content="The Smokehouse" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-    <link rel="icon" type="image/x-icon" href="assets/site-images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/site-images/favicon.ico" />
     <title>The SmokeHouse</title>
   </head>
   <body>
@@ -24,8 +24,8 @@
 
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html" aria-label="Go to home section">Home</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" aria-label="Go to home section">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#menu" aria-label="Go to menu section">Menu</a>
@@ -34,7 +34,7 @@
               <a class="nav-link" href="#our-story" aria-label="Go to our story section">Our Story</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#booking-modal"  data-bs-toggle="modal" data-bs-target="#booking-modal" aria-label="A pop up box will appear with a booking form when this linked is clicked">Reservations</a>
+              <a class="nav-link" href="#booking-modal" data-bs-toggle="modal" data-bs-target="#booking-modal" aria-label="A pop up box will appear with a booking form when this linked is clicked">Reservations</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#testimonials" aria-label="Go to Testimonials section">Testimonials</a>
@@ -43,41 +43,41 @@
         </div>
       </div>
     </nav>
-      <!--=======BOOKING MODAL TAKEN FROM BOOTSTRAP===========-->
+    <!--=======BOOKING MODAL TAKEN FROM BOOTSTRAP===========-->
     <div class="modal fade" id="booking-modal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title text-center" id="bookingModalLabel">Booking Form</h5>
+            <h5 class="modal-title" id="bookingModalLabel">Booking Form</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <!--========BOOKING FORM INSIDE MODAL==========-->
           <div class="modal-body">
-            <form method="POST" action="https://formdump.codeinstitute.net/"></form>
+            <form method="POST" action="https://formdump.codeinstitute.net/">
               <div class="mb-3">
                 <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="First name" required>
+                <input type="text" class="form-control" id="firstName" placeholder="First name" required />
               </div>
               <div class="mb-3">
                 <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
+                <input type="text" class="form-control" id="lastName" placeholder="Last name" required />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                <input type="email" class="form-control" id="email" placeholder="Email Address" required />
               </div>
               <div class="mb-3">
                 <label for="phone" class="form-label">Phone Number</label>
-                <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+                <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required />
               </div>
               <div class="mb-3">
                 <label for="date" class="form-label">Date of Booking</label>
-                <input type="date" class="form-control" id="date" required>
+                <input type="date" class="form-control" id="date" required />
               </div>
               <div class="mb-3">
                 <label for="time" class="form-label">Time of Booking</label>
                 <select class="form-select" id="time" aria-label="Dropdown menu for choosing a time for the booking" required>
-                  <option selected>Please Select A Time</option>
+                  <option value="">Please Select A Time</option>
                   <option value="1">12.00pm</option>
                   <option value="2">1.00pm</option>
                   <option value="3">2.00pm</option>
@@ -92,17 +92,16 @@
               </div>
               <div class="mb-3">
                 <label for="people" class="form-label">Number of People</label>
-                <input type="number" class="form-control" id="people" placeholder="Number of People" required>
+                <input type="number" class="form-control" id="people" placeholder="Number of People" required />
               </div>
               <div class="book-now-center">
-                <button type="submit" class="btn btn-primary text-center">Book Now</button>
+                <button type="submit" class="btn btn-light">Book Now</button>
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-    
 
     <!--===========IMAGE CAROUSEL USING BOOTSTRAP=======-->
 
@@ -139,9 +138,8 @@
         </div>
       </div>
     </section>
-    
 
-    <!--================MENU SECTION=============-->
+    <!--================MENU SECTION USING BOOTSTRAP GRID FOR THE LAYOUT=============-->
 
     <section id="menu" class="container-fluid min-vh-100 container-width">
       <div class="row g-0 vh-20 text-center">
@@ -207,14 +205,17 @@
           <div class="container img-container">
             <img src="assets/site-images/pexels-jonathan-borba-2878745-44.webp" class="card-img-top img-fluid" alt="Image of table set with food and condiments and pouring sauce onto plate" />
           </div>
-          <div class="card-body container w-75">
+          <div class="card-body container">
             <h5 class="card-title">Our Story</h5>
             <p class="card-text">
               We were first established at the start of 2022, we are a family ran restaurant based in a scenic location in the heart of the cheshire countryside, always putting the community, our team and most importantly the customers first. We have over 20 years of experience within the hospitality sector and when we saw the opportunity to be able to open a new restaurant in our local area we just could not resist! We look forward to welcoming you to our restaurant, if you have any queries
               don't hesitate to contact us.
             </p>
           </div>
-          <ul class="list-group list-group-flush">
+          <div class="list-group-header">
+            <h5>Contact Us</h5>
+          </div>
+          <ul class="list-group list-group-flush text-center">
             <li class="list-group-item"><strong>Location:</strong> <span> Cheshire Road, Mobberley, Cheshire WA16 7XX </span></li>
             <li class="list-group-item"><strong>Opening Hours:</strong> <span>Mon-Thurs: 12pm-10pm, Fri-Sat: 12pm-11pm, Sun: 12pm-10pm </span></li>
             <li class="list-group-item"><strong>Phone:</strong> <span>123-456-7890</span></li>
