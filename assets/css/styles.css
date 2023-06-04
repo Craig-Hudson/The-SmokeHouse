@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5 {
     width: 100%;
     border-radius: 0.375rem;
     padding: 2px 0 2px 2px;
+    margin-bottom: 12px;
 }
 
 /*----------MENU---------------*/
@@ -104,6 +105,7 @@ h1, h2, h3, h4, h5 {
     flex-direction: column;
     align-items: center;
 }
+
 #menu h2, h3, h4, h5 {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -118,13 +120,17 @@ h1, h2, h3, h4, h5 {
 }
 
 .menu-items h4 {
-    padding-bottom: 10px;
+    margin-bottom: 20px !important;
 }
 
 .center-menu-title {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+}
+
+.border-right {
+    border-right: 2px solid whitesmoke;
 }
 
 .spliter {
@@ -145,17 +151,14 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 
-#menu .right-border {
-    border-right: 2px solid whitesmoke;
+.price {
+    float: right;
+    font-size: 1.25rem;
 }
 
-.float-end {
-    font-size: 1rem;
-}
-
-.border-bottom {
+.bottom-border {
     display: inline-block;
-    padding: 0 !important;
+    border-bottom: 2px solid whitesmoke;
 }
 
 /*-------------OUR STORY----------------------*/
@@ -168,11 +171,16 @@ h1, h2, h3, h4, h5 {
 #our-story .img-container {
     max-height: 60vh;
     width: 100%;
+    padding: 0;
 }
 
 #our-story img {
     width: 100%;
     max-height: 60vh;
+}
+
+#our-story .card {
+    padding: 0;
 }
 
 .card, .list-group span {
@@ -183,7 +191,6 @@ h1, h2, h3, h4, h5 {
 .block {
     display: block;
 }
-
 
 /*-------------TESTIMONIALS----------------------*/
 
@@ -278,6 +285,10 @@ footer i {
         padding-top: 10px;
     }
 
+    .price {
+        font-size: 0.7rem;
+    }
+
 /*=========OUR STORY MEDIA QUERIES MAX-WIDTH 608PX========*/
 
     #our-story img {
@@ -366,9 +377,8 @@ footer i {
 /*===============MEDIA QUERIES MAX-WIDTH 992PX===============*/
 
 @media screen and (max-width: 992px) {
-    .right-border {
-        border-right: 0 !important;
-        border-bottom: 2px solid whitesmoke;
+    .border-right {
+        border-right: none;
     }
 
     .flex-col {
