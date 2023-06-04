@@ -133,10 +133,6 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 
-.mains * {
-    padding-bottom: 5px;
-}
-
 .calories {
     font-size: 70%;
     font-weight: bold;
@@ -164,6 +160,7 @@ h1, h2, h3, h4, h5 {
 
 #our-story .img-container {
     max-height: 60vh;
+    width: 100%;
 }
 
 #our-story img {
@@ -243,12 +240,21 @@ footer i {
         display: inline;
     }
 
-    #menu * {
-        font-size: 0.75rem !important;
+    #menu h2 {
+        font-size: 1.25rem !important;
+    }
+
+    #menu h3 {
+        font-size: 1.10rem !important;
+    }
+
+    #menu h4 {
+        font-size: 1rem !important;
     }
 
     #menu h5 {
         line-height: 2rem;
+        font-size: 0.8rem;
     }
 
     #menu .menu-items {
@@ -264,10 +270,7 @@ footer i {
         overflow: hidden;
     }
 
-    #our-story .list-group {
-        display: flex;
-        align-items: flex-start;
-    }
+    
 
     /*========TESTIMONIAL MEDIA QUERIES 608PX========*/
 
@@ -279,6 +282,9 @@ footer i {
 /*----------MEDIA QUERIES MAX-WIDTH 768PX------------------*/
 
 @media screen and (max-width: 768px) {
+
+    /*---------- MENU MEDIA QUERIES MAX-WIDTH 768PX------------------*/
+
     #menu h2 {  
         font-size: 2rem;
     }
@@ -299,9 +305,15 @@ footer i {
         width: 100% !important;
     }
 
+    #menu .calories {
+        font-size:  0.5rem !important;
+    }
+
     .spliter {
         display: inline;
     }
+
+     /*=========CAROUSEL MEDIA QUERIES MAX-WIDTH 768PX===========*/
 
     #carousel .carousel-item img {
         height: 42vh;
@@ -311,9 +323,7 @@ footer i {
         line-height: 3;
     }
 
-    #menu .calories {
-        font-size:  0.5rem !important;
-    }
+    
 
     /*=========OUR STORY MEDIA QUERIES===========*/
 
@@ -346,6 +356,10 @@ footer i {
         width: 100% !important;
     }
     
+    .center-menu-title {
+        margin-top: 18px;
+    }
+
 }
 
 
