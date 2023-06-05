@@ -75,6 +75,10 @@ h1, h2, h3, h4, h5 {
     text-align: center !important;
 }
 
+.modal-header button {
+    background-color: whitesmoke;
+}
+
 .book-now-center {
     display: flex;
     justify-content: center;
