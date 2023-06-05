@@ -28,7 +28,7 @@
     - [manual Testing](#manual-testing)
       - [Testing User Stories](#testing-user-stories)
       - [Full Testing](#full-testing)
-        - [N](#n)
+        - [Full Page Testing](#full-page-testing)
     - [Bugs](#bugs)
       - [Solved bugs](#solved-bugs)
       - [Known Bugs](#known-bugs)
@@ -181,6 +181,8 @@ To clone The SmokeHouse repository:
 
 ![Desktop Lighthouse first report](assets/readme-images/deskptop-lightouse-report1.png)
 
+
+
 ![Desktop Lighthouse second report](assets/readme-images/deskptop-lightouse-report1-update.png)
 
 - Mobile Report
@@ -221,7 +223,7 @@ Full testing was done on the following browsers:
 - Google Chrome
 - Firefox
 
-##### N
+##### Full Page Testing
 
 |  Feature | Expected Outcome  | Testing Performed  | Result  | Pass/Fail  |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -230,10 +232,10 @@ Full testing was done on the following browsers:
 | Our story nav link | To take me to our story section  | click out story link  | Took me to our story section  | Pass   |
 | Reservation nav link | For modal to pop up  | Click reservation link  |  Modal popped up | Pass  |
 | Testimonials nav link  | To take me to testimonials section  | Click testimonial link  | Took me to testimonial section  | Pass  |
-| Modal close button  | For modal to close  | Click close button  | Modal was closed | Pass  |  
+| Modal close button  | For modal to close  | Click close button  | Modal was closed |  Pass  |
 | carousel menu link  | To take me to menu   | Click menu link   | Took me to Menu section   | Pass   |
-| Carousel Book a table link   | To take me to reservation booking form   | Took me to booking form   | Pass   |
-| hover effect navbar links  | To change color when cursor is over each link   | links changed colour   | Pass   |
+| Carousel Book a table link   | To take me to reservation booking form   | Click Link   | Took me to booking form   | Pass  |
+| hover effect navbar links  | To change color when cursor is over each link   | Hover cursor over links  | links changed colour   |Pass  |
 |  Carousel automatic start  |  for carousel to automatically start without clicking next or prev buttons  | Reload page to see if automatic carousel started   |  Carousel automatically started  |  Pass   |
 | font awesome icon links   | for each link to take me to its intended destination   | Click link   |  All links took me intended destination  | Pass |
 
@@ -262,9 +264,10 @@ Full testing was done on the following browsers:
 [Bootstrap hamburger menu](http:/https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works/ "Bootstrap hamburger menu") - I used the code from bootstrap v 5.3 to create the hamburger menu
 
 [Bootstrap modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works "Bootstrap Modal") - I have used the code from bootstrap to create the pop up modal, and then have targeted the classes for my own styles
+
 ### Content
 
-The use of the bootstrap libraries was used to create the carousel and the hamburger menu and the modal for the reservation booking form
+The use of the bootstrap libraries was used to create the carousel,hamburger menu and the modal thats used reservation booking form.
 
 Content for this project was written by Craig Hudson
 
