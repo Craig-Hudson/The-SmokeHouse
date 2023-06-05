@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5 {
 /*-------------TESTIMONIALS----------------------*/
 
 #testimonials {
-    background-color: #27374D;
+    background: linear-gradient(#27374D, #526D82);
     color: whitesmoke;
     border-bottom: 2px solid whitesmoke;
     padding: 20px 0;
@@ -396,21 +396,18 @@ footer i {
         line-height: 3;
     }
 
-    
-
-    /*=========OUR STORY MEDIA QUERIES MEDIA QUERIES 768P===========*/
+/*=========OUR STORY MEDIA QUERIES MEDIA QUERIES 768P===========*/
 
     .card-body {
         width: 100% !important;
     }
 
-    /*==========TESTIMONIALS MEDIA QUERIES 768PX====*/
+/*==========TESTIMONIALS MEDIA QUERIES 768PX====*/
 
     .testimonial-image {
         width: 125px;
         height: 125px;
     }
-
 }
 
 /*===============MEDIA QUERIES MAX-WIDTH 992PX===============*/
@@ -431,17 +428,19 @@ footer i {
     .center-menu-title {
         margin-top: 18px;
     }
-
 }
-
 
 /*=============MEDIA QUERIES MIN WIDTH 769PX==========*/
 
 @media screen and (min-width: 769px) {
+
+    /*===========NAVBAR MEDIA QUERIES MIN-WIDTH 769PX=======*/
     #home .container {
         margin-left: 0;
         margin-right: 50px;
     }
+
+ /*===========CAROUSEL MEDIA QUERIES MIN-WIDTH 769PX=======*/
 
     .carousel-caption {
         bottom: 9rem !important;
@@ -462,6 +461,9 @@ footer i {
 /*=============MEDIA QUERIES MIN WIDTH 1208PX==========*/
 
 @media screen and (min-width: 1208px) {
+
+    /*===========CAROUSEL MEDIA QUERIES MIN-WIDTH 769PX=======*/
+
     .carousel-caption {
         bottom: 11rem !important;
     }
