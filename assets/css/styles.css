@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Quattrocento&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Quattrocento&display=swap");
 
 /*---------DEFAULT SETTINGS----------*/
 
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /*------------------MODAL----------------*/
 
 .modal-content {
-    background-color: #27374D !important;
+    background: linear-gradient(#27374D, #526D82);
     color: whitesmoke !important;
 }
 
@@ -173,30 +173,36 @@ h1, h2, h3, h4, h5 {
 #our-story {
     background-color: #9DB2BF;
     padding: 20px 0;
+    color: #526D82;
 }
 
 #our-story .img-container {
-    max-height: 60vh;
-    width: 100%;
+    max-height: 70vh;
+    max-width: 100%;
     padding: 0;
 }
 
 #our-story img {
-    width: 100%;
-    max-height: 60vh;
+    max-width: 100%;
+    max-height: 70vh;
 }
 
 #our-story .card {
     padding: 0;
 }
 
-.card, .list-group span {
-    color: #526D82; 
-    padding-top: 10px;
+.card-text {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #526D82;
 }
 
-.block {
-    display: block;
+.details {
+    margin-top: 20px;
+}
+
+.details h5 {
+    display: inline-block;
+    border-bottom: 2px solid #526D82;
 }
 
 /*-------------TESTIMONIALS----------------------*/
@@ -224,7 +230,7 @@ h1, h2, h3, h4, h5 {
 .testimonial-image {
     height: 160px;
     width: 160px;
-    border-radius: 35%;
+    border-radius: 50%;
 }
 
 .flex-container {
@@ -246,13 +252,24 @@ h1, h2, h3, h4, h5 {
 
 footer {
     background-color: #27374D;
+    color: whitesmoke;
+    padding-top: 10px;
 }
-
 
 footer p {
     display: inline-block;
     margin-bottom: 5px;
     border-bottom: 1px solid whitesmoke;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer small {
+    text-align: center;
 }
 
 footer i {
@@ -470,3 +487,4 @@ footer i {
         bottom: 11rem !important;
     }
 }
+
