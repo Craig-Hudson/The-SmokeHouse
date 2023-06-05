@@ -28,7 +28,7 @@
     - [manual Testing](#manual-testing)
       - [Testing User Stories](#testing-user-stories)
       - [Full Testing](#full-testing)
-        - [Home Page](#home-page)
+        - [N](#n)
     - [Bugs](#bugs)
       - [Solved bugs](#solved-bugs)
       - [Known Bugs](#known-bugs)
@@ -53,7 +53,7 @@ The aims for this website are to make it easier for existing and new potential c
     3. As a first time visitor i want to be able to easily find the whereabouts of the restaurant.
 
   - **Returning Visitor goals**
-    1. As a returning Visitor i want to know if their are any current offers/deals on.
+    1. As a returning Visitor i want to be able to easily reserve a table.
     2. As a returning visitor i want to be able to easily find contact information for any queries.
 
 ### Design
@@ -87,6 +87,8 @@ The aims for this website are to make it easier for existing and new potential c
   </details>
 
 ## Features
+
+
 
 ## Technologies Used
 
@@ -175,9 +177,17 @@ To clone The SmokeHouse repository:
 
 #### Lighthouse
 
+- Desktop Report
+
 ![Desktop Lighthouse first report](assets/readme-images/deskptop-lightouse-report1.png)
 
+![Desktop Lighthouse second report](assets/readme-images/deskptop-lightouse-report1-update.png)
+
+- Mobile Report
+
 ![Mobile Lighthouse first report](assets/readme-images/mobile-lighthouse-report.png)
+
+![Mobile Lighthouse second report](assets/readme-images/mobile-lighthouse-report-update.png)
 
 #### Wave
 
@@ -190,26 +200,42 @@ To clone The SmokeHouse repository:
 |  Goals | How They are achieved  |
 | As a first time visitor i want a nice clean site that is easy to navigate.  |  This was achieved with a clear navigation bar at the top of the page, and the use of a hamburger menu for navigation on devices with a less than 768px|
 | As a first time visitor i want to be able to easily identify where to find the menu  | This was achieved by having a link in the navigation bar at the top of the page which would take a user directly to the menu section, also there is a link for the menu on the first carousel image which would take a user to the menu  |
-|  As a first time visitor i want to be able to easily find the whereabouts of the restaurant | This was achived by having the location of the restaurant in the our story section of the page.  |
+|  As a first time visitor i want to be able to easily find the whereabouts of the restaurant | This was achieved by having the location of the restaurant in the our story section of the page.  |
 | Returning Visitor goals  |   |
-|   |   |
-|   |   |
+| As a returning Visitor i want to be able to easily reserve a table.  | This was achieved by keeping to the single page theme and adding a pop up modal when the user clicks on the reservation navigation link, and also in the book now link that is in the carousel.  |
+|  As a returning visitor i want to be able to easily find contact information for any queries.  |  This was achieved by adding a contacts section under the our story section that contains the contact information of the restaurant |
 |   |   |
 
 #### Full Testing
 
-##### Home Page
+Full testing was done on the following devices:
+
+- laptop
+  - HP Pavillion plus laptop (14inch)
+
+- Mobile
+  - Oppo find x5 lite (6.42inch)
+
+Full testing was done on the following browsers:
+
+- Google Chrome
+- Firefox
+
+##### N
 
 |  Feature | Expected Outcome  | Testing Performed  | Result  | Pass/Fail  |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Home nav link  | Page to reload  | Click home link  | Page Reloaded  | Pass  |
+| Menu nav link  | To take me to the menu  | click menu link  | Took me to menu section  | Pass  |
+| Our story nav link | To take me to our story section  | click out story link  | Took me to our story section  | Pass   |
+| Reservation nav link | For modal to pop up  | Click reservation link  |  Modal popped up | Pass  |
+| Testimonials nav link  | To take me to testimonials section  | Click testimonial link  | Took me to testimonial section  | Pass  |
+| Modal close button  | For modal to close  | Click close button  | Modal was closed | Pass  |  
+| carousel menu link  | To take me to menu   | Click menu link   | Took me to Menu section   | Pass   |
+| Carousel Book a table link   | To take me to reservation booking form   | Took me to booking form   | Pass   |
+| hover effect navbar links  | To change color when cursor is over each link   | links changed colour   | Pass   |
+|  Carousel automatic start  |  for carousel to automatically start without clicking next or prev buttons  | Reload page to see if automatic carousel started   |  Carousel automatically started  |  Pass   |
+| font awesome icon links   | for each link to take me to its intended destination   | Click link   |  All links took me intended destination  | Pass |
 
 ### Bugs
 
@@ -217,32 +243,25 @@ To clone The SmokeHouse repository:
 
 |  no   | Bug  | How i Solved the bug
 | ------------ | ----------- | -------------- |
-| 1 |   |   |
-| 2 | On wider screen widths the menu alignment got far to stretched and looked off  | I noticed i had the bootstrap class container-fluid set as the container which gives the container the full width of the screen, so i changed the bootstrap class to container, which will only allow the width on the container to be as wide as the content inside of it  |
-| 3 |  On Different screen widths the testimonial sections alignment of the images and the star ratings would not align horizontally  | I had a play around with different flexbox properties and i ended up aligning the container of the testimonial section to align-items: flex-start as they aligned the images and the star ratings  |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| 1 | On wider screen widths the menu alignment got far to stretched and looked off  | I noticed i had the bootstrap class container-fluid set as the container which gives the container the full width of the screen, so i changed the bootstrap class to container, which will only allow the width on the container to be as wide as the content inside of it  |
+| 2 |  On Different screen widths the testimonial sections alignment of the images and the star ratings would not align horizontally  | I had a play around with different flexbox properties and i ended up aligning the container of the testimonial section to align-items: flex-start as they aligned the images and the star ratings  |
 
 #### Known Bugs
 
 |  known bugs | Bug issue  | Plan to resolve  |
 | ------------ | ------------ | ------------ |
-| 1  |  |  |
-| 2  | On wider screen widths the menu alignment got far to stretched and looked off  | I plan to ensure that the container is only as wide as it needs to be  |
-| 3 | On Different screen widths the testimonial sections alignment of the images and the star ratings would not align horizontally  | I plan to use flexbox to resolve this issue.  |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| 1  | On wider screen widths the menu alignment got far to stretched and looked off  | I plan to ensure that the container is only as wide as it needs to be  |
+| 2 | On Different screen widths the testimonial sections alignment of the images and the star ratings would not align horizontally  | I plan to use flexbox to resolve this issue.  |
 
 ## Credits
 
 ### Code Used
 
-[Bootstrap carousel](http://https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works "Bootstrap carousel") - I used the code from bootstrap to create the structure of the carousel and have added additional bootstrap classes and my own elements where necessary.
+[Bootstrap carousel](http://https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works "Bootstrap carousel") - I used the code from bootstrap to create the structure of the carousel and have added additional bootstrap classes and my own classes where necessary.
 
 [Bootstrap hamburger menu](http:/https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works/ "Bootstrap hamburger menu") - I used the code from bootstrap v 5.3 to create the hamburger menu
 
+[Bootstrap modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works "Bootstrap Modal") - I have used the code from bootstrap to create the pop up modal, and then have targeted the classes for my own styles
 ### Content
 
 The use of the bootstrap libraries was used to create the carousel and the hamburger menu and the modal for the reservation booking form
