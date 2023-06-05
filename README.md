@@ -175,13 +175,19 @@ To clone The SmokeHouse repository:
 
 #### W3C Validator
 
+- index.html file no errors or infos reported
+  
+![html file](assets/readme-images/2023-06-05-1.png)
+
+- CSS file contains one warning with regards too google imports, no errors
+
+![CSS File](assets/readme-images/css-validator.png)
+
 #### Lighthouse
 
 - Desktop Report
 
 ![Desktop Lighthouse first report](assets/readme-images/deskptop-lightouse-report1.png)
-
-
 
 ![Desktop Lighthouse second report](assets/readme-images/deskptop-lightouse-report1-update.png)
 
