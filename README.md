@@ -3,6 +3,8 @@
 ------------
 [Link to live site here]( https://craig-hudson.github.io/The-SmokeHouse/ "Link to live site here")
 
+![Am I responsive image](assets/readme-images/am-i-responsive.png)
+
 ## Table of Contents
 
 - [The SmokeHouse](#the-smokehouse)
@@ -59,7 +61,7 @@ The aims for this website are to make it easier for existing and new potential c
 ### Design
 
 - **Colour Scheme**
-  ![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
+![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
 
   - I will be using white smoke and #526D82 colour text against the background colours.
   - I will be using #27374D and #DDE6ED as background colors
@@ -75,20 +77,9 @@ The aims for this website are to make it easier for existing and new potential c
     - I will be using images of food and pictures of the restaurant to create more of a visual effect and to make the site more appealing to viewers.
 
   - **Wireframes**
-  <details>
-  <summary>Wireframes</summary>
-
-  ![Desktop home page wireframe](/assets/readme-images/desktop-home.png "desktop home page wireframe")
-  ![Desktop reservation page wireframe](/assets/readme-images/desktop-reservation-page.png "desktop reservation wireframe")
-  ![Tablet home page wireframe](/assets/readme-images/tablet-home.png "tablet home page wireframe")
-  ![Tablet reservation page wireframe](/assets/readme-images/tablet-reservation-page.png "tablet reservation wireframe")
-  ![Mobile home page wireframe](/assets/readme-images/mobile-home.png "mobile home wireframe")
-  ![Mobile reservation page](/assets/readme-images/mobile-reservation-page.png "mobile reservation wireframe")
-  </details>
+ [View wireframes here](/assets/wireframe-images/)
 
 ## Features
-
-
 
 ## Technologies Used
 
