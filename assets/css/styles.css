@@ -57,6 +57,9 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 2px;
 }
 
+.carousel-inner {
+    background-color: #27374D;
+}
 
 .carousel-caption a {
     text-decoration: none;
