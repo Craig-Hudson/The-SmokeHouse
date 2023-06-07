@@ -60,14 +60,13 @@ The aims for this website are to make it easier for existing and new potential c
 
 ### Design
 
-- **Colour Scheme**
 ![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
 
-  - I will be using white smoke and #526D82 colour text against the background colours.
+- I will be using white smoke and #526D82 colour text against the background colours.
   - I will be using #27374D and #DDE6ED as background colors
 
   - **typography**
-    - For headings I will be using Black Han Sans with a fallback of sans-serif.
+  - For headings I will be using Black Han Sans with a fallback of sans-serif.
     - For page text I will be using Quattrocento with a fall back of serif.
 
   - **Structure**
@@ -80,6 +79,15 @@ The aims for this website are to make it easier for existing and new potential c
  [View wireframes here](/assets/wireframe-images/)
 
 ## Features
+
+- A favicon in the browser tab
+  ![Favicon Image](/assets/readme-images/favicon-feature.png)
+
+- A carousel of images at the top of the page, with a welcome message
+  ![Carousel video](/assets/readme-video/carousel-video.mp4)
+
+- A pop up modal for a booking form.
+  ![Pop uo modal](/assets/readme-images/pop-up-modal.png)
 
 ## Technologies Used
 
