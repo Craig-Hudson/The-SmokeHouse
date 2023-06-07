@@ -76,18 +76,24 @@ The aims for this website are to make it easier for existing and new potential c
     - I will be using images of food and pictures of the restaurant to create more of a visual effect and to make the site more appealing to viewers.
 
   - **Wireframes**
+
  [View wireframes here](/assets/wireframe-images/)
 
 ## Features
 
+- The Smokehouse webpage is a single page website which contains a navbar, which comprises of a hamburger menu for smaller devices, a pop up modal for reservation booking, an image carousel with a welcome message,a menu section, our story section, testimonial section and a footer.
+
 - A favicon in the browser tab
-  ![Favicon Image](/assets/readme-images/favicon-feature.png)
+  
+![Favicon Image](/assets/readme-images/favicon-feature.png)
 
 - A carousel of images at the top of the page, with a welcome message
-  ![Carousel video](/assets/readme-video/carousel-video.mp4)
+  
+![Carousel video](/assets/readme-video/carousel-video.mp4)
 
-- A pop up modal for a booking form.
-  ![Pop uo modal](/assets/readme-images/pop-up-modal.png)
+- A pop up modal for the reservation booking form.
+ 
+![Pop uo modal](/assets/readme-images/pop-up-modal.png)
 
 ## Technologies Used
 
@@ -242,6 +248,7 @@ Full testing was done on the following browsers:
 | Carousel Book a table link   | To take me to reservation booking form   | Click Link   | Took me to booking form   | Pass  |
 | hover effect navbar links  | To change color when cursor is over each link   | Hover cursor over links  | links changed colour   |Pass  |
 |  Carousel automatic start  |  for carousel to automatically start without clicking next or prev buttons  | Reload page to see if automatic carousel started   |  Carousel automatically started  |  Pass   |
+|  Carousel Manual scroll  |  when next and previous buttons are clicked it will go through the images  | Click next and previous buttons   | both next and previous buttons work and go through the images  | Pass   |
 | font awesome icon links   | for each link to take me to its intended destination   | Click link   |  All links took me intended destination  | Pass |
 
 ### Bugs
