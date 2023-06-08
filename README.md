@@ -87,13 +87,12 @@ The aims for this website are to make it easier for existing and new potential c
   
 ![Favicon Image](/assets/readme-images/favicon-feature.png)
 
-- A carousel of images at the top of the page, with a welcome message
+- A carousel of images at the top of the page, with a welcome message on the first image
   
-![Carousel video](/assets/readme-video/carousel-video.mp4)
-
 - A pop up modal for the reservation booking form.
- 
-![Pop uo modal](/assets/readme-images/pop-up-modal.png)
+![Pop up modal](/assets/readme-images/pop-up-modal.png)
+
+- A footer at the bottom of the page with the copyright and navigation links for social networks
 
 ## Technologies Used
 
@@ -204,6 +203,11 @@ To clone The SmokeHouse repository:
 
 #### Wave
 
+- I have conducted a wave report of my website there are no errors, no contrast errors,
+  but there are 7 alerts, 6 for Suspicious alternative text and one for a possible heading on my image carousel text.
+
+![Wave Test Report](assets/readme-images/wave-report.png)
+
 ### manual Testing
 
 #### Testing User Stories
@@ -250,15 +254,17 @@ Full testing was done on the following browsers:
 |  Carousel automatic start  |  for carousel to automatically start without clicking next or prev buttons  | Reload page to see if automatic carousel started   |  Carousel automatically started  |  Pass   |
 |  Carousel Manual scroll  |  when next and previous buttons are clicked it will go through the images  | Click next and previous buttons   | both next and previous buttons work and go through the images  | Pass   |
 | font awesome icon links   | for each link to take me to its intended destination   | Click link   |  All links took me intended destination  | Pass |
+| 404 page | if a link is broken or incorrect will i be directed and be able to return back to the main website   |  enter incorrect link and see if there is a easy way to get back to the website| Entered broken link which took me to the 404page, and there is a clear button to click which took me back to my website |Pass |
 
 ### Bugs
 
 #### Solved bugs
 
-|  no   | Bug  | How i Solved the bug
+|  no   | Bug  | How i Solved the bug|
 | ------------ | ----------- | -------------- |
 | 1 | On wider screen widths the menu alignment got far to stretched and looked off  | I noticed i had the bootstrap class container-fluid set as the container which gives the container the full width of the screen, so i changed the bootstrap class to container, which will only allow the width on the container to be as wide as the content inside of it  |
 | 2 |  On Different screen widths the testimonial sections alignment of the images and the star ratings would not align horizontally  | I had a play around with different flexbox properties and i ended up aligning the container of the testimonial section to align-items: flex-start as they aligned the images and the star ratings  |
+|3 |In the menu section when i hit the 992px breakpoint the menu would shrink to 50% width but all still be in one column,it would only turn into 50% width when it hits 993px and turns into two columns side by side| I used chrome developer tools and played around with my code on their until i found the culprit was in the wrong media query so i just swapped the code over into the correct media query, and all seems to be working well since the fix.  |
 
 #### Known Bugs
 
@@ -279,11 +285,13 @@ Full testing was done on the following browsers:
 
 ### Content
 
-The use of the bootstrap libraries was used to create the carousel,hamburger menu and the modal thats used reservation booking form.
+The use of the bootstrap library was used to create the carousel,hamburger menu and the modal thats used reservation booking form.
 
-Content for this project was written by Craig Hudson
+The other content for this project was written by Craig Hudson
 
 ### media
+
+- All Images for the site were all taken from [pexels](https://www.pexels.com/)
 
 ### Acknowledgments
 
