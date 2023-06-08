@@ -411,19 +411,12 @@ footer i {
         border-right: 0;
     }
     
-    .container-width {
-        width: 100% !important;
-    }
-
     #menu .calories {
         font-size:  0.5rem !important;
     }
 
-    .spliter {
-        display: inline;
-    }
-
-     /*=========CAROUSEL MEDIA QUERIES MAX-WIDTH 768PX===========*/
+   
+ /*=========CAROUSEL MEDIA QUERIES MAX-WIDTH 768PX===========*/
 
     #carousel .carousel-item img {
         height: 42vh;
@@ -465,7 +458,17 @@ footer i {
     .center-menu-title {
         margin-top: 18px;
     }
+
+    .spliter {
+        display: inline;
+    }
+
+    .container-width {
+    width: 100% !important;
+    }
 }
+
+
 
 /*=============MEDIA QUERIES MIN WIDTH 769PX==========*/
 
