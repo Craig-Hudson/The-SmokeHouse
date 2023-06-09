@@ -184,8 +184,10 @@ To clone The SmokeHouse repository:
 ![html file](assets/readme-images/2023-06-05-1.png)
 
 - CSS file contains one warning with regards too google imports, no errors
-
+- Custom CSS
 ![CSS File](assets/readme-images/css-validator.png)
+
+- CSS Coming from bootstrap contains 215 warnings. [Link to CSS Jigsaw validator here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcraig-hudson.github.io%2FThe-SmokeHouse%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 #### Lighthouse
 
