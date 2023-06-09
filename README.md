@@ -189,16 +189,17 @@ To clone The SmokeHouse repository:
 
 #### Lighthouse
 
-- Desktop Report
-
+- **Desktop Report**
+- First desktop report
 ![Desktop Lighthouse first report](assets/readme-images/deskptop-lightouse-report1.png)
 
+- Final desktop report
 ![Desktop Lighthouse second report](assets/readme-images/deskptop-lightouse-report1-update.png)
 
-- Mobile Report
-
+- **Mobile Report**
+- First Mobile report
 ![Mobile Lighthouse first report](assets/readme-images/mobile-lighthouse-report.png)
-
+- Final mobile report
 ![Mobile Lighthouse second report](assets/readme-images/mobile-lighthouse-report-update.png)
 
 #### Wave
@@ -212,23 +213,22 @@ To clone The SmokeHouse repository:
 
 #### Testing User Stories
 
-|  First Time Visitors |   |   |
+|  First Time Visitors |   |
 | ------------ | ------------ | ------------ |
-|  Goals | How They are achieved  |
-| As a first time visitor i want a nice clean site that is easy to navigate.  |  This was achieved with a clear navigation bar at the top of the page, and the use of a hamburger menu for navigation on devices with a less than 768px|
+|  Goals | How They are achieved  
+| As a first time visitor i want a nice clean site that is easy to navigate.  |  This was achieved with a clear navigation bar at the top of the page, and the use of a hamburger menu for navigation on devices with a less than 768px
 | As a first time visitor i want to be able to easily identify where to find the menu  | This was achieved by having a link in the navigation bar at the top of the page which would take a user directly to the menu section, also there is a link for the menu on the first carousel image which would take a user to the menu  |
-|  As a first time visitor i want to be able to easily find the whereabouts of the restaurant | This was achieved by having the location of the restaurant in the our story section of the page.  |
+|  As a first time visitor i want to be able to easily find the whereabouts of the restaurant | This was achieved by having the location of the restaurant in the our story section of the page.  
 | Returning Visitor goals  |   |
-| As a returning Visitor i want to be able to easily reserve a table.  | This was achieved by keeping to the single page theme and adding a pop up modal when the user clicks on the reservation navigation link, and also in the book now link that is in the carousel.  |
-|  As a returning visitor i want to be able to easily find contact information for any queries.  |  This was achieved by adding a contacts section under the our story section that contains the contact information of the restaurant |
-|   |   |
+| As a returning Visitor i want to be able to easily reserve a table.  | This was achieved by keeping to the single page theme and adding a pop up modal when the user clicks on the reservation navigation link, and also in the book now link that is in the carousel.  
+|  As a returning visitor i want to be able to easily find contact information for any queries.  |  This was achieved by adding a contacts section under the our story section that contains the contact information of the restaurant|
 
 #### Full Testing
 
 Full testing was done on the following devices:
 
 - laptop
-  - HP Pavillion plus laptop (14inch)
+  - HP Pavilion plus laptop (14inch)
 
 - Mobile
   - Oppo find x5 lite (6.42inch)
@@ -254,7 +254,7 @@ Full testing was done on the following browsers:
 |  Carousel automatic start  |  for carousel to automatically start without clicking next or prev buttons  | Reload page to see if automatic carousel started   |  Carousel automatically started  |  Pass   |
 |  Carousel Manual scroll  |  when next and previous buttons are clicked it will go through the images  | Click next and previous buttons   | both next and previous buttons work and go through the images  | Pass   |
 | font awesome icon links   | for each link to take me to its intended destination   | Click link   |  All links took me intended destination  | Pass |
-| 404 page | if a link is broken or incorrect will i be directed and be able to return back to the main website   |  enter incorrect link and see if there is a easy way to get back to the website| Entered broken link which took me to the 404page, and there is a clear button to click which took me back to my website |Pass |
+| 404 page | if a link is broken or incorrect i be directed to the 404 page and be able to return back to the main website   |  enter incorrect link and see if there is a easy way to get back to the website| Entered broken link which took me to the 404page, and there is a clear button to click which took me back to my website |Pass |
 
 ### Bugs
 
@@ -265,6 +265,7 @@ Full testing was done on the following browsers:
 | 1 | On wider screen widths the menu alignment got far to stretched and looked off  | I noticed i had the bootstrap class container-fluid set as the container which gives the container the full width of the screen, so i changed the bootstrap class to container, which will only allow the width on the container to be as wide as the content inside of it  |
 | 2 |  On Different screen widths the testimonial sections alignment of the images and the star ratings would not align horizontally  | I had a play around with different flexbox properties and i ended up aligning the container of the testimonial section to align-items: flex-start as they aligned the images and the star ratings  |
 |3 |In the menu section when i hit the 992px breakpoint the menu would shrink to 50% width but all still be in one column,it would only turn into 50% width when it hits 993px and turns into two columns side by side| I used chrome developer tools and played around with my code on their until i found the culprit was in the wrong media query so i just swapped the code over into the correct media query, and all seems to be working well since the fix.  |
+|4 | In the Our story section where there is contact information, the email address ending up spanning onto two lines when it should only be on one line between screen width of 992px and 1200px| I played around with margins for the row that contained the email address until the email was completely on one line and then entered a min-width / max width media query to solve this issue  |
 
 #### Known Bugs
 
