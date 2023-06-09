@@ -509,3 +509,10 @@ footer i {
     }
 }
 
+/*=======MEDIA QUERY TO FIX SMALL BUG IN OUR STORY SECTION MORE EXPLAINED IN README SOLVED BUGS SECTION=======*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .details {
+        margin: 0 -20px !important;
+    }
+}
