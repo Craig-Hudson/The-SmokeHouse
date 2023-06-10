@@ -15,7 +15,7 @@
   <body>
     <!--============NAVBAR BOOTSTRAP================-->
 
-    <nav id="home" class="navbar navbar-expand-md navbar-dark justify-content-center">
+    <nav id="home" class="navbar navbar-expand-md navbar-dark justify-content-center home-background">
       <div class="container">
         <a class="navbar-brand float-left" href="#">The SmokeHouse</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,13 +106,13 @@
 
     <!--===========IMAGE CAROUSEL USING BOOTSTRAP=======-->
 
-    <section id="carousel">
+    <section id="carousel" class="carousel-fallback-background">
       <div class="carousel-container">
         <div id="image-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="4000">
               <img src="assets/site-images/pexels-chan-walrus-941861-11.webp" class="d-block w-100 img-fluid" alt="Image of the smokehouse restaurant">
-              <div class="carousel-caption">
+              <div class="carousel-caption text-center">
                 <h1>Welcome to The SmokeHouse</h1>
                 <p>View Our <a href="#menu" aria-label="Go to the part of the webpage where the menu is">Menu</a> Below</p>
                 <a class="btn btn-dark rounded" href="booking-modal" role="button" data-bs-toggle="modal" data-bs-target="#booking-modal" aria-label="A box will pop uo once clicked with the reservation booking form">Book A Table</a>
@@ -142,7 +142,7 @@
 
     <!--================MENU SECTION USING BOOTSTRAP GRID FOR THE LAYOUT=============-->
 
-    <section id="menu" class="container-fluid  container-width">
+    <section id="menu" class="container-fluid  container-width menu-section">
       <div class="row g-0 vh-20 text-center">
         <div class="col-12">
           <h2>Menu</h2>
@@ -200,7 +200,7 @@
 
     <!--=============OUR STORY / CONTACT=============-->
 
-    <section id="our-story">
+    <section id="our-story" class="our-story-section">
       <div class="container text-center">
         <div class="card">
           <div class="container img-container">
@@ -238,7 +238,7 @@
 
     <!--===============TESTIMONIALS USING BOOTSTRAP GRID FOR RESPONSIVE LAYOUT==================-->
 
-    <section id="testimonials">
+    <section id="testimonials" class="testimonials-section">
       <div class="container-fluid g-0">
         <div class="row g-0">
           <div class="col text-center">
