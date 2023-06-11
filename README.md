@@ -215,8 +215,8 @@ To clone The SmokeHouse repository:
 
 #### Testing User Stories
 
-|  First Time Visitors |   |   
-| ------------ | ------------ | ------------| 
+|  First Time Visitors |   |
+| ------------ | ------------ |
 |  Goals | How They are achieved  |
 | As a first time visitor i want a nice clean site that is easy to navigate.  |  This was achieved with a clear navigation bar at the top of the page, and the use of a hamburger menu for navigation on devices with a less than 768px
 | As a first time visitor i want to be able to easily identify where to find the menu  | This was achieved by having a link in the navigation bar at the top of the page which would take a user directly to the menu section, also there is a link for the menu on the first carousel image which would take a user to the menu  |
