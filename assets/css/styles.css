@@ -37,6 +37,7 @@ h1, h2, h3, h4, h5 {
 
 #home a:hover {
     color: #9DB2BF;
+    
 }
 
 .navbar-dark .navbar-toggler {
@@ -51,23 +52,27 @@ h1, h2, h3, h4, h5 {
     object-fit: cover;
     object-position: center;
     overflow: hidden;
+    position: relative;
 }
 
-.carousel-caption {
-    line-height: 15vh;
-    letter-spacing: 2px;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
 }
 
 .carousel-fallback-background {
     background-color: #27374D;
 }
 
-.carousel-caption a {
+.centered a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-.carousel-caption p {
+.centered p {
     font-weight: bold;
 }
 
@@ -112,7 +117,7 @@ h1, h2, h3, h4, h5 {
 
 /*----------MENU---------------*/
 
-#menu {
+.menu-section {
     padding-top: 20px;
     background-color: #27374D;
     color: whitesmoke;
@@ -163,7 +168,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .calories {
-    font-size: 70%;
+    font-size: 80%;
     font-weight: bold;
 }
 
@@ -189,9 +194,14 @@ h1, h2, h3, h4, h5 {
 /*-------------OUR STORY----------------------*/
 
 .our-story-section {
-    background-color: #9DB2BF;
-    padding: 20px 0;
+    
+padding: 20px 0;
     color: #526D82;
+}
+
+.our-story-section h2 {
+    display: inline-block;
+    border-bottom: 2px solid #27374D;
 }
 
 .our-story-section .img-container {
@@ -211,7 +221,12 @@ h1, h2, h3, h4, h5 {
 
 .card-text {
     padding-bottom: 10px;
-    border-bottom: 2px solid #526D82;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.our-story-container-padding {
+    padding: 0 !important;
 }
 
 .details {
@@ -222,6 +237,10 @@ h1, h2, h3, h4, h5 {
     display: inline-block;
     border-bottom: 2px solid #526D82;
     font-size: 1.25rem;
+}
+
+.card {
+    border: none !important;
 }
 
 /*-------------TESTIMONIALS----------------------*/
@@ -272,7 +291,7 @@ h1, h2, h3, h4, h5 {
 footer {
     background-color: #27374D;
     color: whitesmoke;
-    padding-top: 10px;
+    padding: 10px 0;
 }
 
 footer p {
@@ -295,6 +314,10 @@ footer i {
     font-size: 140%;
     padding: 5px 10px 10px 10px;
     color: whitesmoke;
+}
+
+.block {
+    padding: 5px 0;
 }
 
 /*---------------404 ERROR PAGE-----------------*/
@@ -413,7 +436,7 @@ footer i {
     }
     
     .menu-section .calories {
-        font-size:  0.5rem !important;
+        font-size:  0.65rem;
     }
 
    
@@ -424,13 +447,12 @@ footer i {
     }
 
     .carousel-caption {
-        line-height: 3;
+        line-height: 1.5;
+        transform: translateY(-25%);
     }
 
-/*=========OUR STORY MEDIA QUERIES MEDIA QUERIES 768P===========*/
-
-    .card-body {
-        width: 100% !important;
+    .carousel-caption h1 {
+        font-size: calc(1rem + 1.5vw);
     }
 
 /*==========TESTIMONIALS MEDIA QUERIES 768PX====*/
@@ -444,32 +466,29 @@ footer i {
 /*===============MEDIA QUERIES MAX-WIDTH 992PX===============*/
 
 @media screen and (max-width: 992px) {
-    .border-right {
-        border-right: none;
-    }
-
+   /*===============RESERVATIONS MEDIA QUERIES MAX-WIDTH 992PX===============*/
     .flex-col {
         width: 50%;
     }
 
-    .card-body  {
-        width: 100% !important;
-    }
-    
-    .center-menu-title {
-        margin-top: 18px;
+/*===============MENU MEDIA QUERIES MAX-WIDTH 992PX===============*/
+    .container-width {
+    width: 100% !important;
     }
 
     .spliter {
         display: inline;
     }
 
-    .container-width {
-    width: 100% !important;
+    .center-menu-title {
+        margin-top: 18px;
     }
+
+    .border-right {
+        border-right: none;
+    }
+
 }
-
-
 
 /*=============MEDIA QUERIES MIN WIDTH 769PX==========*/
 
@@ -483,10 +502,6 @@ footer i {
 
  /*===========CAROUSEL MEDIA QUERIES MIN-WIDTH 769PX=======*/
 
-    .carousel-caption {
-        bottom: 9rem !important;
-    }
-
     .carousel-caption p {
         font-size: 24px;
     }
@@ -496,17 +511,6 @@ footer i {
 
     .carousel-caption .btn {
         font-size: 20px;
-    }
-}
-
-/*=============MEDIA QUERIES MIN WIDTH 1208PX==========*/
-
-@media screen and (min-width: 1208px) {
-
-    /*===========CAROUSEL MEDIA QUERIES MIN-WIDTH 769PX=======*/
-
-    .carousel-caption {
-        bottom: 11rem !important;
     }
 }
 
