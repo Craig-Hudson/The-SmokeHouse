@@ -72,12 +72,12 @@
                 </div>
                 <div>
                   <label for="date" class="form-label">Date of Booking</label>
-                  <input type="date" class="form" name="Date" id="date" required>
+                  <input type="date" class="form" name="Date" id="date" min="11/06/2-23" required>
                 </div>
                 <div>
                   <label for="time" class="form-label">Time of Booking</label>
                   <select class="form" name="Time of Booking" id="time" aria-label="Dropdown menu for choosing a time for the booking" required>
-                    <option value="">Please Select A Time</option>
+                    <option value="">Select A Time</option>
                     <option value="12.00pm">12.00pm</option>
                     <option value="1.00pm">1.00pm</option>
                     <option value="2.00pm">2.00pm</option>
@@ -92,7 +92,7 @@
                 </div>
                 <div>
                   <label for="people" class="form-label">Number of People</label>
-                  <input type="number" class="form" name="Number of People" id="people" placeholder="Number of People" required>
+                  <input type="number" class="form" name="Number of People" id="people" placeholder="Number of People" max="50" required>
                 </div>
                 <div class="book-now-center">
                   <button type="submit" class="btn btn-light">Book Now</button>
@@ -112,7 +112,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="4000">
               <img src="assets/site-images/pexels-chan-walrus-941861-11.webp" class="d-block w-100 img-fluid" alt="Image of the smokehouse restaurant">
-              <div class="carousel-caption text-center">
+              <div class="carousel-caption">
                 <h1>Welcome to The SmokeHouse</h1>
                 <p>View Our <a href="#menu" aria-label="Go to the part of the webpage where the menu is">Menu</a> Below</p>
                 <a class="btn btn-dark rounded" href="booking-modal" role="button" data-bs-toggle="modal" data-bs-target="#booking-modal" aria-label="A box will pop uo once clicked with the reservation booking form">Book A Table</a>
@@ -201,21 +201,27 @@
     <!--=============OUR STORY / CONTACT=============-->
 
     <section id="our-story" class="our-story-section">
-      <div class="container text-center">
+      <div class="container-fluid text-center our-story-container-padding">
         <div class="card">
-          <div class="container img-container">
+          <div class="card-title">
+            <h2>Our Story</h2>
+          </div>
+          <div class="container-fluid img-container">
             <img src="assets/site-images/pexels-akashni-weimers-137725981.webp" class="card-img-top img-fluid" alt="Image of table set with food and condiments and pouring sauce onto plate">
           </div>
-          <div class="card-body container">
-            <h2 class="card-title">Our Story</h2>
+          <div class="card-body container-fluid">
+            <h2 class="card-title">About us</h2>
             <p class="card-text">
               We were first established at the start of 2022, we are a family ran restaurant based in a scenic location in the heart of the cheshire countryside, 
               always putting the community, our team and most importantly the customers first. We have over 30 years of experience within the hospitality sector as me and my partner have gone through the ranks working for some of the biggest names in the sector.
-              and when we saw the opportunity to be able to open a new restaurant in our local area we just could not resist! We want to share are knowledge and our great tasting food with the local community and beyond. 
+              and when we saw the opportunity to be able to open a new restaurant in our local area we just could not resist! 
+            </p>
+            <p class="card-text">
+              We want to share are knowledge and our great tasting food with the local community and beyond. 
               We look forward to welcoming you to our restaurant, if you have any queries or questions please don't hesitate to contact us.
             </p>
           </div>
-          <div class="row details">
+          <div class="row g-0 details">
             <div class="col-12 col-lg-4 find-us">
               <h3>Find us <i class="fa-solid fa-location-dot"></i></h3>
               <p><strong>Location: </strong> Mobberley Road, Mobberley, Cheshire WA16 8YT</p>
@@ -280,7 +286,7 @@
 
     <footer id="footer">
       <div class="container">
-        <div class="row">
+        <div class="row g-0">
           <div class="col">
             <p>Follow Us On</p>
             <div class="block">
