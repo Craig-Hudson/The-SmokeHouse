@@ -249,6 +249,15 @@ padding: 20px 0;
     border: none !important;
 }
 
+.get-in-touch a {
+    text-decoration: none;
+    color: #526D82;
+}
+
+.get-in-touch a:hover {
+    color: #27374D;
+}
+
 /*-------------TESTIMONIALS----------------------*/
 
 .testimonials-section {
