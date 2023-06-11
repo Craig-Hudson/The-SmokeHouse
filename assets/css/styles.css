@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
+    line-height: 5;
 }
 
 .carousel-fallback-background {
@@ -72,8 +73,13 @@ h1, h2, h3, h4, h5 {
     color: whitesmoke;
 }
 
+.centered a:hover {
+    color: #9DB2BF;
+}
+
 .centered p {
     font-weight: bold;
+    font-size: 125%;
 }
 
 .btn-dark {
@@ -446,13 +452,16 @@ footer i {
         height: 42vh;
     }
 
-    .carousel-caption {
+    .centered {
         line-height: 1.5;
-        transform: translateY(-25%);
     }
 
-    .carousel-caption h1 {
+    .centered h1 {
         font-size: calc(1rem + 1.5vw);
+    }
+
+    .centered p {
+        font-size: calc(0.65rem + 1.5vw);
     }
 
 /*==========TESTIMONIALS MEDIA QUERIES 768PX====*/
@@ -502,14 +511,14 @@ footer i {
 
  /*===========CAROUSEL MEDIA QUERIES MIN-WIDTH 769PX=======*/
 
-    .carousel-caption p {
+    .centered p {
         font-size: 24px;
     }
-    .carousel-caption p > a {
+    .centered p > a {
         font-size: 24px;
     }
 
-    .carousel-caption .btn {
+    .centered .btn {
         font-size: 20px;
     }
 }
