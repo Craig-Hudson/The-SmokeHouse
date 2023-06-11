@@ -98,7 +98,7 @@ The aims for this website are to make it easier for existing and new potential c
 
 ### Languages Used
 
-HTML and CSS have been used for this project
+HTML, CSS and Bootstrap have been used for this project
 
 ### Frameworks, Libraries & Programs Used
 
