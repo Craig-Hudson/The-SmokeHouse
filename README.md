@@ -215,13 +215,13 @@ To clone The SmokeHouse repository:
 
 #### Testing User Stories
 
-|  First Time Visitors |   |   |
+|  First Time Visitors |   |   
 | ------------ | ------------ | ------------| 
 |  Goals | How They are achieved  |
 | As a first time visitor i want a nice clean site that is easy to navigate.  |  This was achieved with a clear navigation bar at the top of the page, and the use of a hamburger menu for navigation on devices with a less than 768px
 | As a first time visitor i want to be able to easily identify where to find the menu  | This was achieved by having a link in the navigation bar at the top of the page which would take a user directly to the menu section, also there is a link for the menu on the first carousel image which would take a user to the menu  |
 |  As a first time visitor i want to be able to easily find the whereabouts of the restaurant | This was achieved by having the location of the restaurant in the our story section of the page.  
-| Returning Visitor goals  |   |    |
+| Returning Visitor goals  |   |
 | As a returning Visitor i want to be able to easily reserve a table.  | This was achieved by keeping to the single page theme and adding a pop up modal when the user clicks on the reservation navigation link, and also in the book now link that is in the carousel.  
 |  As a returning visitor i want to be able to easily find contact information for any queries.  |  This was achieved by adding a contacts section under the our story section that contains the contact information of the restaurant|
 
