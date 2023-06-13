@@ -99,19 +99,19 @@ By implementing them few points above i have made my webpage as accessible and u
 ![Favicon Image](/assets/readme-images/favicon-feature.png)
 
 - A carousel of images at the top of the page, with a welcome message on the first image
-![Image Carousel](assets/readme-images/image-carousel.png)
+![Image Carousel](/assets/readme-images/image-carousel.png)
   
 - I went with a pop up modal booking form rather than having a booking form on a separate page, this was to keep the structure of the website all contained onto 1 page that is scrollable rather than just having 1 page that splits off from the rest of the website.
 ![Pop up modal](/assets/readme-images/pop-up-modal.png)
 
 - I created a basic menu with starters and mains
-![Menu](assets/readme-images/menu.png)
+![Menu](/assets/readme-images/menu.png)
 
 - I created a testimonial section to show new customers what they can expect from the company
-![Testimonials](assets/readme-images/testimonials.png)
+![Testimonials](/assets/readme-images/testimonials.png)
 
 - A footer at the bottom of the page with the copyright and navigation links for social networks
-![Footer](assets/readme-images/footer.png)
+![Footer](/assets/readme-images/footer.png)
 
 ## Technologies Used
 
