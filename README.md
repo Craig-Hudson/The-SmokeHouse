@@ -13,8 +13,15 @@
   - [User Experience (UX)](#user-experience-ux)
     - [User Stories (US)](#user-stories-us)
     - [Design](#design)
-    - [Acessability](#acessability)
+    - [Accessability](#accessability)
   - [Features](#features)
+    - [Favicon](#favicon)
+    - [Image Carousel](#image-carousel)
+    - [Pop up Modal](#pop-up-modal)
+    - [Menu](#menu)
+    - [Testimonials](#testimonials)
+    - [Our Story](#our-story)
+    - [Footer](#footer)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
@@ -80,7 +87,7 @@ The aims for this website are to make it easier for existing and new potential c
 
  [View wireframes here](/assets/wireframe-images/)
 
-### Acessability
+### Accessability
 
 I have been attentive to make the website as accessible-friendly as possible through the following measures:
 
@@ -94,21 +101,41 @@ By implementing them few points above i have made my webpage as accessible and u
 
 - The Smokehouse webpage is a single page website which contains a navbar, which comprises of a hamburger menu for smaller devices, a pop up modal for reservation booking, an image carousel with a welcome message,a menu section, our story section, testimonial section and a footer.
 
+### Favicon
+
 - A favicon in the browser tab
   
 ![Favicon Image](/assets/readme-images/favicon-feature.png)
 
+### Image Carousel
+
 - A carousel of images at the top of the page, with a welcome message on the first image
 ![Image Carousel](/assets/readme-images/image-carousel.png)
-  
+
+### Pop up Modal
+
 - I went with a pop up modal booking form rather than having a booking form on a separate page, this was to keep the structure of the website all contained onto 1 page that is scrollable rather than just having 1 page that splits off from the rest of the website.
 ![Pop up modal](/assets/readme-images/pop-up-modal.png)
+
+### Menu
 
 - I created a basic menu with starters and mains
 ![Menu](/assets/readme-images/menu.png)
 
+### Testimonials
+
 - I created a testimonial section to show new customers what they can expect from the company
 ![Testimonials](/assets/readme-images/testimonials.png)
+
+### Our Story
+
+- I created a heading with an image to open up the our story section
+![Our story heading](/assets/readme-images/about-us-heading.png)
+
+- Then i have created a section that gives a brief overview of the hstory and gives contact, location, and opening times below.
+![Our Story](/assets/readme-images/our-story.png)
+
+### Footer
 
 - A footer at the bottom of the page with the copyright and navigation links for social networks
 ![Footer](/assets/readme-images/footer.png)
