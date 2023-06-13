@@ -13,6 +13,7 @@
   - [User Experience (UX)](#user-experience-ux)
     - [User Stories (US)](#user-stories-us)
     - [Design](#design)
+    - [Acessability](#acessability)
   - [Features](#features)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
@@ -63,21 +64,31 @@ The aims for this website are to make it easier for existing and new potential c
 ![color pallette](/assets/readme-images/Color-Hunt-Palette-27374d526d829db2bfdde6ed.png)
 
 - I will be using white smoke and #526D82 colour text against the background colours.
-  - I will be using #27374D and #DDE6ED as background colors
+  - I will be using #27374D, #DDE6ED and white as background colors
 
   - **typography**
   - For headings I will be using Black Han Sans with a fallback of sans-serif.
     - For page text I will be using Quattrocento with a fall back of serif.
 
   - **Structure**
-    - The structure will be a single scrolling page, with multiple pages with each section being clearly identifiable, and the use of a pop up modal for the reservation booking form.
+    - The structure will be a single scrolling page, with multiple pages with each section being clearly identifiable, and the use of a pop up modal for the reservation booking form which has a form dump which opens up in a new tab, to allow the user to be able to stay on the website itself to be able to continue browsing if they would like to. and the use of an image carousel to make the website more appealing and not overloading the website full of images that aren't contained.
 
   - **Imagery**
-    - I will be using images of food and pictures of the restaurant to create more of a visual effect and to make the site more appealing to viewers.
+    - I will be using images of food and pictures of the restaurant to create more of a visual effect and to make the site more appealing to viewers, all of the images on the website were taken from [pexels](https://www.pexels.com/)
 
   - **Wireframes**
 
  [View wireframes here](/assets/wireframe-images/)
+
+### Acessability
+
+I have been attentive to make the website as accessible-friendly as possible through the following measures:
+
+- Utilizing semantic HTML to provide meaningful structure and enhance accessibility.
+- Incorporating descriptive alt attributes for images on the site to provide alternative text for screen readers.
+- I also tested my website using wave which reports back to me any errors/contrast errors that may occur.
+  
+By implementing them few points above i have made my webpage as accessible and user friendly as possible taking into account those who may be visually impaired and require screen readers for assistance.
 
 ## Features
 
@@ -88,11 +99,19 @@ The aims for this website are to make it easier for existing and new potential c
 ![Favicon Image](/assets/readme-images/favicon-feature.png)
 
 - A carousel of images at the top of the page, with a welcome message on the first image
+![Image Carousel](assets/readme-images/image-carousel.png)
   
-- A pop up modal for the reservation booking form.
+- I went with a pop up modal booking form rather than having a booking form on a separate page, this was to keep the structure of the website all contained onto 1 page that is scrollable rather than just having 1 page that splits off from the rest of the website.
 ![Pop up modal](/assets/readme-images/pop-up-modal.png)
 
+- I created a basic menu with starters and mains
+![Menu](assets/readme-images/menu.png)
+
+- I created a testimonial section to show new customers what they can expect from the company
+![Testimonials](assets/readme-images/testimonials.png)
+
 - A footer at the bottom of the page with the copyright and navigation links for social networks
+![Footer](assets/readme-images/footer.png)
 
 ## Technologies Used
 
@@ -116,7 +135,7 @@ Git - For version control.
 ​
 Chrome Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-[Bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/download/) - To help create a responsive website with the use of bootstrap grid, and bootstrap classes
+[Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/download/) - To help create a responsive website with the use of bootstrap grid, and bootstrap classes
 
 [tiny.png](https://tinypng.com/) - To reduce the file size of my images for better website performance
 
