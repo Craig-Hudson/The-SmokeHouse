@@ -37,7 +37,6 @@ h1, h2, h3, h4, h5 {
 
 #home a:hover {
     color: #9DB2BF;
-    
 }
 
 .navbar-dark .navbar-toggler {
@@ -256,6 +255,11 @@ padding: 20px 0;
 
 .get-in-touch a:hover {
     color: #27374D;
+}
+
+iframe {
+    max-width: 250px;
+    max-height: 150px;
 }
 
 /*-------------TESTIMONIALS----------------------*/
@@ -479,6 +483,13 @@ footer i {
         width: 125px;
         height: 125px;
     }
+
+/*==========ABOUT US  MEDIA QUERIES 768PX====*/
+
+    .get-in-touch, .details {
+        padding-bottom: 15px;
+    }
+
 }
 
 /*===============MEDIA QUERIES MAX-WIDTH 992PX===============*/
