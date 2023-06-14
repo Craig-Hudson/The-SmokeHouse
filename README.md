@@ -130,10 +130,10 @@ By implementing them few points above i have made my webpage as accessible and u
 ### Our Story
 
 - I created a heading with an image to open up the our story section
-![Our story heading](/assets/readme-images/about-us-heading.png)
+![Our story heading](/assets/readme-images/about-us-1-heading.png)
 
 - Then i have created a section that gives a brief overview of the history and gives contact, location, and opening times below.
-![Our Story](/assets/readme-images/our-story.png)
+![Our Story](/assets/readme-images/our-story-1.png)
 
 ### Footer
 
