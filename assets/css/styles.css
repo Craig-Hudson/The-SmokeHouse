@@ -486,10 +486,13 @@ footer i {
 
 /*==========ABOUT US  MEDIA QUERIES 768PX====*/
 
-    .get-in-touch, .details {
+    .get-in-touch {
         padding-bottom: 15px;
     }
 
+    .find-us {
+        padding-bottom: 15px;
+    }
 }
 
 /*===============MEDIA QUERIES MAX-WIDTH 992PX===============*/
